@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خطا</title>
+    <link rel="stylesheet" href="{% static 'customer/theme-01/' %}css/style.css">
+    <link rel="stylesheet" href="{% static 'customer/theme-01/' %}css/tailwind.css">
+    <style>
+        .btn_error{
+            display: inline-block;
+            border-radius: 10px !important;
+            padding: 12px 25px !important;
+            width:auto;
+            margin-top:20px;
+            border:1px solid transparent !important;
+          }
+          .btn_error:hover{
+            border:1px solid #0f1e36 !important;
+            color:#111
+          }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+    <main class="flex min-h-screen">
+        <div class="grow p-3 xl:p-5 bg-white xl:m-7 xl:border-2 xl:border-mellichange xl:rounded-xl grid  justify-items-center">
+            <div class="h-full background_blue_light rounded-xl w-full">
+                <div class="p-3 justify-items-center content-center  grid  ap-6 h-full">
+                    <div class="p-3 text-center "><img src="{% static 'customer/theme-01/' %}img/403.png" alt="ارور 403" class="h-full"style="width:300px; margin:0 auto" loading="lazy"></div>
+                        <div class=" flex flex-col mt-2 text-gray-900">
+                            <p class="text-lg text-center">
+                                خطای 403 - شما اجازه دسترسی ندارید      
+                            </p>
+                        </div>
+                        <a href="/" class="btn_error">بازگشت به صفحه اصلی</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+@font-face {
+  font-family: Yekan;
+  font-style: normal;
+  src: url("../font/Yekan-Bakh.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: Yekanlight;
+  font-style: normal;
+  src: url("../font/YekanBakh-Light.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: YekanboldH;
+  font-style: normal;
+  src: url("../font/YekanBakh-Heavy.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: Yekanbold;
+  font-style: normal;
+  src: url("../font/YekanBakh-Bold.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: Yekanmedium;
+  font-style: normal;
+  src: url("../font/YekanBakh-Medium.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: aviny;
+  font-style: normal;
+  src: url("../font/Aviny2.ttf") format("woff2-variations");
+}
+
+@font-face {
+  font-family: diman;
+  font-style: normal;
+  src: url("../font/DimaYekanWeb.ttf") format("woff2-variations");
+}
+
+@font-face {
+  font-family: dimanBold;
+  font-style: normal;
+  src: url("../font/DimaYekanWebBold.ttf") format("woff2-variations");
+}
+
+@font-face {
+  font-family: dimanRegular;
+  font-style: normal;
+  src: url("../font/DimaYekanRegular.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: dimanTypo;
+  font-style: normal;
+  src: url("../font/Dima-Yekan-Typography.ttf") format("woff2-variations");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  src: url("../font/Peyda-Medium.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: peydaBold;
+  font-style: normal;
+  src: url("../font/Peyda-Bold.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: peydaBlack;
+  font-style: normal;
+  src: url("../font/Peyda-Black.ttf") format("woff2-variations");
+}
+@font-face {
+  font-family: peydaRegular;
+  font-style: normal;
+  src: url("../font/Peyda-Regular.ttf") format("woff2-variations");
+}
+
+body,
+html {
+}
+* {
+  scrollbar-width: calc(100vw / 100%);
+  scrollbar-color: #165425;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 90%;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #165425;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0e3d1a;
+}
+.no_scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: -moz-scrollbars-none; /* Firefox */
+  overflow: -webkit-scrollbar; /* Chrome, Safari, Opera */
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-image: none !important;
+}
+#LicenseSection .swiper-slide-next::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 50%;
+  background-color: rgb(107 114 128 / 0.1);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#LicenseSection .swiper-slide-next::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 50%;
+  background-color: rgb(107 114 128 / 0.1);
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 991.98px) {
+  #LicenseSection .swiper-slide-next::before,
+  #LicenseSection .swiper-slide-next::after {
+    display: none;
+  }
+}
+.bg_Gold {
+  background: linear-gradient(
+    83.09deg,
+    #d5ae25 0%,
+    #edd274 25.25%,
+    #ebcd67 48.29%,
+    #d6ad3d 81.76%,
+    #ebc12d 100.6%
+  );
+}
+.color_Gold {
+  background: -webkit-linear-gradient(
+    45deg,
+    #dcd285 0%,
+    #f9f7b7 50.04%,
+    #f1d164 74.73%,
+    #f3e57d 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border_Gold {
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    45deg,
+    #dcd285 0%,
+    #f9f7b7 30.04%,
+    #f1d164 64.73%,
+    #f3e57d 100%
+  );
+  border-image-slice: 1;
+}
+.bg_Gradiant_Green {
+  background: linear-gradient(
+      89.79deg,
+      #015853 -9.75%,
+      #015e59 52.12%,
+      #014744 108.11%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.bg_Gradiant_buysell_path::after {
+  background: radial-gradient(
+    1270.92% 101.31% at 50.08% 49.99%,
+    #c4a873 0%,
+    #aa863b 50%,
+    #8c6f2d 100%
+  );
+}
+.ClipPathAboutUsGreen {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.ClipPathAboutUswhite {
+  clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
+}

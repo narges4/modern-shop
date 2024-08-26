@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'iransans';
+    src: url(../font/IRANSansWeb\(FaNum\).eot);
+    src: url(../font/IRANSansWeb\(FaNum\).ttf);
+    src: url(../font/IRANSansWeb\(FaNum\).otf);
+    src: url(../font/IRANSansWeb\(FaNum\).woff);
+}
+
+@font-face {
+    font-family: 'mikhak';
+    src: url(../font/Mikhak-Medium.ttf);
+    src: url(../font/Mikhak-Medium.woff2);
+}
+@font-face {
+    font-family: 'arghavan';
+    src: url(../font/Arghavan.ttf);
+}
+@font-face {
+    font-family: 'cinema';
+    src: url(../font/Cinema\ Full.ttf);
+}
+@font-face {
+    font-family: 'Casablanca';
+    src: url(../font/Far_Casablanca.ttf);
+}
+
+* {
+    -webkit-overflow-scrolling: touch;
+}
+html, body, div, span, applet, object, iframe,blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    direction: rtl;
+    text-align: right;
+    font-family: iransans;
+    scroll-behavior: smooth;
+}
+
+body,
+html,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-y: hidden;
+    position: relative;
+    background-color: #ebecf0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 0;
+}
+a , a:hover{
+    text-decoration: none;
+}
+input , select , textarea , button ,
+input:focus , select:focus , textarea:focus , button:focus , .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.login-register{
+    width: 100%;
+    background-color: #fff;
+}
+.login-register > .row{
+    min-height: 100vh;
+}
+.login-register .heading-content{
+    background-color: #00375a !important;
+    border-radius: 0 100px 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+}
+
+
+.login-register .form-input{
+    padding: 20px 65px;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+}
+.login-register .form-input .content{
+    max-width: 450px;
+    width: 100%;
+}
+.login-register .form-input .content h2{
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #14133b;
+    font-family: Casablanca;
+}
+.login-register .form-input .content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.login-register .form-input .content form .form-group{
+    margin-bottom: 30px;
+}
+.login-register .form-input .content form label{
+    color: #14133b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.login-register .form-input .content form input{
+    min-height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #cccbcb;
+    padding: 10px 15px;
+    color: #111;
+    background-color: transparent;
+}
+.login-register .form-input .content form input::placeholder{
+    opacity: .5;
+}
+
+.login-register .form-input .content form .btn-login{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid;
+    border-color: #0e99a6;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #0e99a6;
+    padding: 9px 36px;
+    width: 100%;
+}
+
+
+
+.login-register .icon-menu{
+    margin-top: 20px;
+}
+.login-register .menu-fixed{
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 100;
+}
+.login-register .menu-fixed .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-register .menu-fixed .logo img{
+  width: 100px;
+  padding: 10px;
+}
+.login-register .menu-fixed .logo span{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: Casablanca;
+}
+.login-register .menu-fixed .item-menu{
+    padding: 10px 15px;
+}
+.login-register .menu-fixed .item-menu ul{
+    text-align: center;
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+    border-top: 1px solid rgba(17, 17, 17, 0.2);
+}
+.login-register .menu-fixed .item-menu ul li{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    padding: 5px 7px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s linear;
+    position: relative;
+}
+.login-register .menu-fixed .item-menu ul li:hover{
+  background: #ebf3fc!important;
+    background-color: rgba(26,115,232,.04);
+    border-radius: 8px;
+    border-color: transparent;
+}
+.login-register .menu-fixed .item-menu ul li .img{
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-register .menu-fixed .item-menu ul li .title p{
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #111;
+}
+.request-code{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(180, 1, 1, 0.719);
+    border-radius: 10px;
+}
+.request-code a{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-spinner{
+    animation: loading 2s linear infinite;
+}
+@keyframes loading{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.btn-login-NationalCode:disabled ,
+.btn-login-pass:disabled ,
+.btn-login-code:disabled{
+    background-color: #a3a3a3 !important;
+    border-color: #a3a3a3 !important;
+}
+.img-logo-left{
+    text-align: center;
+}
+.img-logo-left img{
+    width: 130px;
+    height: 75px;
+    border-radius: 20px;
+}
+.slogan{
+    margin-top: 20px;
+}
+.slogan p{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.img-phon-login-left img{
+    width: 400px;
+    height: 400px;
+}
+.alert-login{
+    margin-top: 50px;
+   
+    padding: 15px;
+    text-align: justify;
+    line-height: 25px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+.alert-login.yellow{
+    background-color: #edc86529;
+    color: #825f01;
+    border-right: 4px solid #ffba00;
+}
+.alert-login.red{
+    background-color: #ed656c29;
+    color: #820117;
+    border-right: 4px solid #ff0000;
+}
+.alert-login.green{
+    background-color: #8cfabd29;
+    color: #01822c;
+    border-right: 4px solid #018d24;
+}

@@ -1,0 +1,1205 @@
+.flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.titleinvestment {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gap-10 {
+    gap: 2.5rem;
+}
+
+.gap-16 {
+    gap: 4rem;
+}
+
+.box_price_online {
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #D4AE25;
+    background: rgba(212, 174, 37, 0.15);
+}
+
+.box_price_online .text_price_online {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, .7);
+    margin-bottom: 10px;
+}
+
+.box_price_online .price_online {
+    font-weight: 700;
+}
+
+.first_box {
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+    padding: 25px 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    margin-top: 25px;
+    background-color: #F4FBF5;
+}
+
+.first_box .title {
+    background-color: #4a4a4a;
+    border-radius: 15px;
+    padding: 15px 20px;
+}
+
+.first_box .title img {
+    width: 40px;
+    height: 40px;
+    background: #EAB600;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.first_box .title h6 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.first_box .content {
+    border: 1px solid #1111115d;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.first_box .content p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.first_box .content img {
+    width: 350px;
+}
+
+.first_box .box_services img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.first_box .box_services {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.first_box .box_services div {
+    background-color: rgba(40, 168, 91, 0.08);
+    border: 3px solid #fff;
+    border-radius: 25px;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+.first_box .box_services p {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.first_box .btn_start_invest {
+    background-color: #165425;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 55px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #fff;
+}
+.wallet .btn_start_invest {
+    background-color: #eda723;
+    display: inline-block;
+    border-radius: 18px;
+    padding: 17px 45px;
+    text-align: center;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    min-width: 220px;
+}
+
+.btn-new-invest a {
+    background-color: #165425;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px !important;
+    text-align: center;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+.table-investment th {
+    font-size: 0.9em;
+}
+
+.table-investment td {
+    border: 1px solid rgba(0, 0, 0, .1);
+    vertical-align: middle;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .6);
+    font-size: 0.8em !important;
+}
+
+.table-investment td.green {
+    color: green;
+}
+
+.table-investment td.red {
+    color: #da0000;
+}
+
+.table-investment td.orange {
+    color: #f1bd00;
+}
+
+.investment_levels {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.investment_levels .level {
+    position: relative;
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.investment_levels .second_level::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    border: 1px dashed #999999;
+    top: 40%;
+    right: 0;
+    transform: translateX(50%);
+    z-index: 5;
+}
+.investment_levels .second_level::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    border: 1px dashed #999999;
+    top: 40%;
+    left: 0;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+.investment_levels .second_level.befor::before{
+    border: 1px solid #00544B;
+}
+.investment_levels .second_level.beforafter::before,
+.investment_levels .second_level.beforafter::after{
+    border: 1px solid #00544B;
+}
+
+
+.investment_levels .box_level {
+    border: 2px solid #CBCBCB;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    background: #fff;
+}
+
+.investment_levels .text {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.investment_levels .currently .box_level {
+    border-color: #00544B;
+    background: #e5f2eb;
+    z-index: 10;
+}
+.investment_levels .checked .box_level{
+    background: #00544B;
+}
+
+.investment_calculator {
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+.investment_calculator .form_calculator,
+.investment_calculator .tabel_user_invest {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-left: 1px solid #eee;
+    padding: 30px 35px;
+}
+
+.investment_calculator .tabel_user_invest {
+    border: none;
+    padding: 30px;
+}
+
+.investment_calculator .form_calculator .img_calculator,
+.befor_invoce_investment .content .img_befor_invoce {
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.investment_calculator .form_calculator p,
+.befor_invoce_investment .content p {
+    font-weight: 900;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #000;
+}
+
+.investment_calculator .form_calculator .user_amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid #10B981;
+    background: rgba(16, 185, 129, 0.1);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.investment_calculator .form_calculator .user_amount .text {
+    color: #444444;
+    font-size: 16px;
+}
+
+.investment_calculator .form_calculator .user_amount .amount {
+    font-weight: 700;
+    color: #000;
+    font-size: 1.1em;
+}
+
+.investment_calculator .form_calculator .user_amount .amount a {
+    background: #10B981;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.investment_calculator .form_calculator .user_amount .amount a i {
+    font-size: 25px;
+}
+
+.investment_calculator .form_calculator .package_select .input_form {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 7px;
+    margin-top: 10px;
+}
+.investment_calculator .form_calculator .package_select .input_form.error{
+    border-color: #d30606 ;
+}
+.investment_calculator .form_calculator .package_select .input_form.error input::placeholder{
+    color: #d30606;
+}
+
+.investment_calculator .form_calculator .package_select label {
+    font-weight: 700;
+    color: #000;
+}
+
+.investment_calculator .form_calculator .package_select input,
+.investment_calculator .form_calculator .package_select select {
+    background: transparent;
+    border: none;
+}
+
+.investment_calculator .form_calculator .package_select .time_investment {
+    border: 2px solid #bbb;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: #bbb;
+}
+
+.investment_calculator .form_calculator .package_select .time_investment.available {
+    border-color: transparent;
+    color: #222222be;
+    background: rgba(40, 168, 91, 0.1);
+    cursor: pointer;
+}
+
+.investment_calculator .form_calculator .package_select .time_investment.available.selected {
+    border-color: #165425;
+    color: #165425;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.investment_calculator .form_calculator .package_select button {
+    background: #165425;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 15px;
+    margin-top: 10px;
+}
+
+.investment_calculator .tabel_user_invest .title h6 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.investment_calculator .tabel_user_invest .title p {
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 20px;
+}
+
+.investment_calculator .tabel_user_invest .items_tabel .item {
+    background: rgba(40, 168, 91, 0.15);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.investment_calculator .tabel_user_invest .investment_warning {
+    border: 2px solid #165425;
+    background: rgb(148 149 149 / 10%);
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 30px;
+    width: 100%;
+}
+
+.investment_calculator .tabel_user_invest .investment_warning .icon {
+    background: #fff;
+    border-radius: 15px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.investment_calculator .tabel_user_invest .investment_warning .icon i {
+    color: #165425;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.investment_calculator .tabel_user_invest .investment_warning h5 {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.investment_calculator .tabel_user_invest .investment_warning p {
+    font-size: 0.85em;
+    color: rgba(0, 0, 0, .7);
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.cancell_investment,
+.continue_investment {
+    background: rgba(22, 84, 37, 0.1);
+    display: inline-block;
+    color: #165425 !important;
+    border-radius: 18px;
+    padding: 15px 10px;
+    min-width: 200px;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.continue_investment {
+    background: #165425;
+    color: #fff !important;
+    font-weight: 500;
+}
+.continue_investment:disabled{
+    background: #D1D1D1;
+}
+
+.befor_invoce_investment {
+    padding: 30px;
+}
+
+.befor_invoce_investment .content {
+    background: rgba(40, 168, 91, 0.08);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.befor_invoce_investment .content .items_invoice {
+    background: rgba(40, 168, 91, 0.1);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.befor_invoce_investment .content .items_invoice .item {
+    border-bottom: 1px solid #fff;
+    padding: 12px;
+}
+
+.befor_invoce_investment .content .items_invoice .item:last-child {
+    border: none;
+}
+
+.befor_invoce_investment .content .items_invoice .item span {
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.rulls_investment {
+    padding: 30px;
+}
+
+.rulls_investment .img_rulls_investment {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.rulls_investment .text_rulls_invest {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.rulls_investment .text_rulls_invest .title {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.rulls_investment .text_rulls_invest .title h5 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.rulls_investment .text_rulls_invest .description {
+    color: rgba(0, 0, 0, .7);
+    text-align: justify;
+    font-size: 0.9em;
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 30px;
+    padding-top: 10px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.rulls_investment .text_rulls_invest .description::-webkit-scrollbar-track {
+    background: #dbdbdb;
+}
+
+.rulls_investment .text_rulls_invest .description::-webkit-scrollbar-thumb {
+    background: #165425;
+}
+
+.rulls_investment .text_rulls_invest .accept_rulls {
+    background: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.success_investment {
+    width: 100%;
+    padding: 0 30px;
+}
+.success_investment > .row{
+    background: rgba(40, 168, 91, 0.1);
+    border-radius: 25px;
+    padding: 30px;
+}
+.success_investment .img_success_investment {
+    text-align: center;
+}
+.success_investment .img_success_investment img{
+    width: 250px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.success_investment .img_success_investment h5{
+    color: #28A85B;
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.success_investment .select_package_success{
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+.success_investment .img_package_select{
+    box-shadow: 0px 16px 64px 0px #00000026;
+    background: #FAFBFE;
+    border-radius: 35px;
+    padding: 25px;
+    width: 25%;
+}
+.success_investment .description{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.success_investment .description h5{
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 20px;
+}
+.success_investment .description p{
+    line-height: 15px;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, .7);
+    text-align: justify;
+}
+.success_investment .description ul li{
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.success_investment .description a{
+    background: #165425;
+    display: inline-block;
+    border-radius: 18px;
+    min-width: 150px;
+    max-width: 50%;
+    text-align: center;
+    padding: 18px 15px;
+    font-size: 0.9em;
+}
+.icon_check{
+    display: none;
+}
+.error_amount{
+    color: #d30606 !important;
+    text-align: right !important;
+    font-size: .75em !important;
+    margin-bottom: 10px !important;
+    display: none;
+}
+#First_Level_Investment ,
+#Second_Level_Investment{
+    padding: 30px;
+}
+.hide_level{
+    display: none;
+}
+.banner_wallet{
+    background: #f8f0c1;
+    border-radius: 50px;
+    padding: 20px 50px ;
+    margin-top: 30px;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, .25);
+}
+.title_wallet{
+    font-weight: 700;
+    font-size: 25px;
+}
+.banner_wallet .item_wallet{
+    font-weight: 500;
+    line-height: 25px;
+}
+.banner_wallet .circle_item_wallet{
+    width: 25px;
+    height: 25px;
+    background: #FAB025;
+    border: 6px solid #fadf96;
+    border-radius: 50%;
+}
+.img_walet{
+    width: 400px;
+    margin: 0 auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+.wallet_box{
+    border-radius: 40px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+    background: #165425;
+    margin-bottom: 30px;
+}
+.wallet_box .title_wallet_box{
+    /* border-radius: 0 50px 50px 0; */
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+}
+.wallet_box .title_wallet_box img{
+    width: 50px;
+    height: 50px;
+}
+.wallet_box .title_wallet_box h6{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.wallet_box .info_wallet{
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+    padding: 25px 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    min-height: 190px;
+}
+.wallet_box .info_wallet .transaction_list{
+    display: inline-block;
+    background: #165425;
+    color: #fff;
+    border-radius: 15px;
+    padding: 12px 10px;
+    width: 100%;
+    text-align: center;
+}
+.wallet_box .info_wallet img{
+    width: 25px;
+    height: 25px;
+}
+.wallet_box .info_wallet .icon i{
+    font-size: 23px;
+    color: #EAB600;
+}
+.wallet_box .info_wallet .amount{
+    font-size: 23px;
+    font-weight: 700;
+}
+.wallet_box .info_wallet span{
+    font-size: 0.85em;
+}
+
+/* #First_Level_Investment ,
+#buttonLevel1{
+    display: none;
+} */
+
+/* #Second_Level_Investment ,
+#buttonLevel2 {
+    display: none;
+}
+
+#third_Level_Investment ,
+#buttonLevel3{
+    display: none;
+} */
+
+@media (min-width: 1200px) and (max-width: 1600.98px) {
+    .first_box .content p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .first_box .content p.description {
+        font-size: 0.85em;
+        text-align: justify;
+    }
+
+    .first_box .content img.vector {
+        width: 250px;
+    }
+
+    .first_box .box_services div {
+        padding: 15px 20px;
+    }
+
+    .table-referral {
+        overflow-x: auto;
+    }
+    .col_100{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .col_75{
+        flex: 0 0 75% !important;
+        max-width: 75% !important;
+    }
+    .col_50{
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+    .col_33{
+        flex: 0 0 33% !important;
+        max-width: 33% !important;
+    }
+    .col_25{
+        flex: 0 0 25% !important;
+        max-width: 25% !important;
+    }
+    .investment_calculator .form_calculator .package_select .input_form{
+        margin-bottom: 15px;
+    }
+    .investment_calculator .tabel_user_invest{
+        padding: 10px;
+    }
+    .befor_invoce_investment , .rulls_investment{
+        padding: 20px;
+    }
+    .befor_invoce_investment .content .items_invoice .item span{
+        font-size: 0.8em;
+    }
+    .success_investment .select_package_success{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+    .success_investment .img_package_select{
+        width: 150px;
+    }
+    .success_investment .description{
+        width: 100%;
+    }
+    .success_investment .img_success_investment{
+        padding: 10px;
+    }
+    .success_investment .description a{
+        width: 100%;
+        max-width: 100%;
+    }
+    .img_walet{
+        width: 250px;
+    }
+    .wallet .btn_start_invest{
+        width: 45%;
+        margin-left: 0;
+        padding: 17px 10px;
+        min-width: unset;
+        font-size: 15px;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .first_box .content p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .first_box .content p.description {
+        font-size: 0.85em;
+        text-align: justify;
+    }
+
+    .first_box .content img.vector {
+        width: 250px;
+    }
+
+    .first_box .box_services div {
+        padding: 15px 20px;
+    }
+
+    .table-referral {
+        overflow-x: auto;
+    }
+    .investment_calculator .form_calculator .package_select .input_form{
+        margin-bottom: 15px;
+    }
+    .befor_invoce_investment .content .items_invoice .item span{
+        font-size: 0.75em;
+    }
+    .success_investment .select_package_success{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+    .success_investment .img_package_select{
+        width: 150px;
+    }
+    .success_investment .description{
+        width: 100%;
+    }
+    .success_investment .img_success_investment{
+        padding: 10px;
+    }
+    .success_investment .description a{
+        width: 100%;
+        max-width: 100%;
+    }
+    .img_walet{
+        width: 300px;
+    }
+    .wallet .btn_start_invest{
+        width: 45%;
+        margin-left: 0;
+        padding: 17px 10px;
+        min-width: unset;
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .first_box .content {
+        flex-direction: column-reverse;
+    }
+
+    .first_box .content p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .first_box .content p.description {
+        font-size: 0.85em;
+        text-align: justify;
+    }
+
+    .first_box .content img.vector {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    .investment_calculator .form_calculator, .investment_calculator .tabel_user_invest{
+        border: none;
+    }
+    .investment_calculator .form_calculator .package_select .input_form{
+        margin-bottom: 15px;
+    }
+    #buttonLevel1 , #buttonLevel2, #buttonLevel3{
+        text-align: center !important;
+    }
+    .banner_wallet{
+        text-align: center;
+    }
+    .wallet_box .title_wallet_box{
+        padding: 20px;
+    }
+    .wallet .btn_start_invest{
+        width: 45%;
+        margin-left: 0;
+        padding: 17px 20px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .first_box .title h6 {
+        font-size: 16px;
+    }
+
+    .first_box .content {
+        flex-direction: column-reverse;
+    }
+
+    .first_box .content img.vector {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    .first_box .content p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .first_box .content p.description {
+        font-size: 0.85em;
+        text-align: justify;
+    }
+
+    .first_box .box_services div {
+        padding: 15px 10px;
+    }
+
+    .first_box .box_services {
+        justify-content: center;
+    }
+    .investment_calculator .form_calculator, .investment_calculator .tabel_user_invest{
+        border: none;
+    }
+    .investment_calculator .form_calculator .package_select .input_form{
+        margin-bottom: 15px;
+    }
+    #buttonLevel1 , #buttonLevel2, #buttonLevel3{
+        text-align: center !important;
+    }
+    .success_investment .select_package_success{
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+    .success_investment .img_package_select{
+        width: 150px;
+    }
+    .success_investment .description{
+        width: 100%;
+    }
+    .success_investment .img_success_investment{
+        padding: 10px;
+    }
+    .success_investment .description a{
+        width: 100%;
+        max-width: 100%;
+    }
+    .wallet_box .title_wallet_box{
+        padding: 20px;
+    }
+    .banner_wallet{
+        padding: 20px;
+        text-align: center;
+    }
+    .img_walet{
+        width: 350px;
+    }
+    .wallet_box .info_wallet span{
+        font-size: 0.85em;
+    }
+    .wallet_box .info_wallet img{
+        width: 20px;
+        height: 20px;
+    }
+    .wallet_box .info_wallet{
+        padding: 20px;
+    }
+    .wallet .btn_start_invest{
+        width: 45%;
+        margin-left: 0;
+        padding: 17px 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .box_invetment {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .first_box {
+        padding: 15px;
+    }
+
+    .first_box .title h6 {
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .first_box .title img.vector {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .first_box .content p {
+        font-size: 0.85em;
+        text-align: center;
+    }
+
+    .first_box .content p.description {
+        font-size: 0.85em;
+        text-align: justify;
+    }
+
+    .first_box .content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .first_box .content img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .first_box .box_services {
+        flex-direction: column;
+    }
+
+    .first_box .btn_start_invest {
+        padding: 15px 10px;
+        width: 100%;
+    }
+
+    .first_box .box_services div {
+        padding: 15px 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .investment_levels .box_level{
+        width: 50px;
+        height: 50px;
+    }
+    .investment_levels{
+        padding: 0;
+    }
+    .investment_levels .text{
+        font-size: 0.7em;
+    }
+    #First_Level_Investment, #Second_Level_Investment{
+        padding: 0;
+    }
+    .investment_calculator .form_calculator .user_amount{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .investment_calculator .form_calculator .user_amount .amount a i{
+        font-size: 18px;
+    }
+    .investment_calculator .form_calculator .package_select .input_form{
+        margin-bottom: 15px;
+    }
+    .investment_calculator .tabel_user_invest .items_tabel .item{
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9em;
+    }
+    .investment_calculator .tabel_user_invest .investment_warning{
+        padding: 15px;
+    }
+    .investment_calculator .tabel_user_invest .investment_warning h5{
+        font-size: 0.85em;
+    }
+    .cancell_investment, .continue_investment{
+        min-width: 110px;
+    }
+    .investment_calculator .form_calculator, .investment_calculator .tabel_user_invest{
+        padding: 30px 15px;
+    }
+    .investment_calculator .form_calculator, .investment_calculator .tabel_user_invest{
+        border: none;
+    }
+    .befor_invoce_investment .content .items_invoice .item{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .befor_invoce_investment .content .items_invoice .item{
+        padding: 8px;
+    }
+    .befor_invoce_investment .content .items_invoice .item span{
+        font-size: 0.7em;
+    }
+    .befor_invoce_investment .content .items_invoice{
+        padding: 10px;
+    }
+    .rulls_investment .text_rulls_invest .description{
+        padding: 15px;
+        font-size: 0.75em;
+    }
+    .rulls_investment .text_rulls_invest .accept_rulls{
+        font-size: 0.7em;
+        padding: 15px;
+    }
+    .success_investment .img_success_investment img{
+        width: 100%;
+        max-width: 80%;
+    }
+    .success_investment > .row{
+        padding: 0px;
+    }
+    .success_investment .img_success_investment h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .success_investment .select_package_success{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .success_investment .img_package_select{
+        width: 70%;
+    }
+    .success_investment .description{
+        width: 100%;
+    }
+    .success_investment .img_success_investment{
+        padding: 10px;
+    }
+    .success_investment .description a{
+        width: 100%;
+        max-width: 100%;
+    }
+    #buttonLevel1, #buttonLevel2, #buttonLevel3{
+        text-align: center !important;
+    }
+    #buttonLevel3 button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .wallet_box .title_wallet_box{
+        padding: 5px;
+    }
+    .wallet_box .title_wallet_box h6 ,
+    .wallet_box .info_wallet .transaction_list{
+        font-size: 13px;
+    }
+    .title_wallet{
+        font-size: 18px;
+    }
+    .banner_wallet{
+        padding: 20px;
+        text-align: center;
+    }
+    .img_walet{
+        width: 250px;
+    }
+    .wallet .btn_start_invest{
+        width: 50%;
+        margin-left: 0;
+        padding: 17px 20px;
+    }
+}

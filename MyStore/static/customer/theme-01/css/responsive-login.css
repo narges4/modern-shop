@@ -1,0 +1,247 @@
+@media (max-width : 1440px){
+    .login-register .menu-fixed .item-menu ul li{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 45px;
+        height: 45px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-size: .9em;
+    }
+}
+
+@media (max-width : 1200px){
+    .login-register .menu-fixed .item-menu ul li{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 45px;
+        height: 45px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+}
+@media (min-width : 1024px) and (max-width : 1199.98px){
+    .login-register .menu-fixed .item-menu ul li{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 45px;
+        height: 45px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+}
+@media (min-width : 992px) and (max-width : 1023.98px){
+    .login-register .menu-fixed .item-menu ul li{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 45px;
+        height: 45px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .login-register .heading-content{
+        border-radius: 0;
+    }
+    .login-register .form-input .content h2{
+        text-align: center;
+    }
+    .login-register .form-input .content p{
+        text-align: center;
+    }
+    .login-register .form-input .content form{
+        border: 1px solid rgba(17, 17, 17, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .login-register .form-input .content{
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width : 767.98px){
+    .login-register .form-input .content{
+        max-width: 100%;
+    }
+    .login-register .heading-content{
+        border-radius: 0;
+    }
+    .login-register .form-input .content h2{
+        text-align: center;
+    }
+    .login-register .form-input .content p{
+        text-align: center;
+    }
+    .login-register .form-input .content form{
+        border: 1px solid rgba(17, 17, 17, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+}
+@media (min-width : 425px) and (max-width : 575.98px){
+    .login-register .heading-content{
+        border-radius: 0;
+    }
+    .login-register .heading-content .form{
+        max-height: 100%;
+    }
+     .login-register .form-input .content h2{
+        text-align: center;
+    }
+    .login-register .form-input .content p{
+        text-align: center;
+    }
+    .login-register .form-input .content form{
+        border: 1px solid rgba(17, 17, 17, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li{
+        width: 80px;
+        height: 80px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 5px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 50px;
+        height: 50px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+   
+}
+@media (min-width : 375px) and (max-width : 424.98px){
+    .login-register .heading-content{
+        padding: 20px;
+    }
+    .login-register .form-input{
+        padding: 50px 15px;
+    }
+    .login-register .heading-content{
+        border-radius: 0;
+    }
+    .login-register .heading-content .form{
+        max-height: 100%;
+        padding: 60px 20px;
+    }
+    .login-register .heading-content .form .alert-login h1{
+        font-size: 1.8em;
+    }
+    .login-register .heading-content .form .alert-login p{
+        font-size: .8em;
+    }
+     .login-register .form-input .content h2{
+        text-align: center;
+    }
+    .login-register .form-input .content p{
+        text-align: center;
+    }
+    .login-register .form-input .content form{
+        border: 1px solid rgba(17, 17, 17, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li{
+        width: 75px;
+        height: 75px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 5px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 45px;
+        height: 45px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+
+}
+@media (min-width : 320px) and (max-width : 374.98px){
+
+    .login-register .heading-content{
+        padding: 20px;
+    }
+    .login-register .form-input{
+        padding: 50px 15px;
+    }
+    .login-register .heading-content{
+        border-radius: 0;
+    }
+    .login-register .heading-content .form{
+        max-height: 100%;
+        padding: 60px 20px;
+    }
+    .login-register .heading-content .form .alert-login h1{
+        font-size: 1.8em;
+    }
+    .login-register .heading-content .form .alert-login p{
+        font-size: .8em;
+    }
+    .login-register .form-input .content h2{
+        text-align: center;
+    }
+    .login-register .form-input .content p{
+        text-align: center;
+    }
+    .login-register .form-input .content form{
+        border: 1px solid rgba(17, 17, 17, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .login-register .menu-fixed .item-menu ul li{
+        width: 73px;
+        height: 73px;
+        padding: 5px 0;
+    }
+    .login-register .menu-fixed .item-menu{
+        padding: 10px 5px;
+    }
+    .login-register .menu-fixed .item-menu ul li .img{
+        width: 40px;
+        height: 40px;
+    }
+    .login-register .menu-fixed .item-menu ul li .title p{
+        font-weight: 100;
+        font-size: .9em;
+    }
+}

@@ -1,0 +1,95 @@
+{% load static %}
+{{form.media.css }} 
+
+<div
+  class="modal fade bd-example-modal-lg"
+  id="{{modal_id}}Modal"
+  aria-labelledby="{{modal_id}}ModalLabel"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">{{title}}</h6>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="بستن"
+        >
+          <i class="ti-close"></i>
+        </button>
+      </div>
+      <div class="modal-body"> 
+        {% if pic and picture != None %}
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-12 text-center">
+            <figure class="">
+              <a href="{{picture}}" target="_blank">
+                <img src="{{picture}}" style="width:80%"></img>
+              </a>
+            </figure>
+          </div>
+        </div>
+        {% endif %}
+        <!-- form -->
+        <form
+          id="{{modal_id}}Form"
+          class="needs-validation"
+          action="{{form_url}}"
+          enctype="multipart/form-data"
+          style="direction: rtl"
+          onsubmit="
+          {% if not CKEditor %}FormAjaxModal( event, '{{modal_id}}Form' , '{{modal_id}}btn', '{{modal_id}}lbtn', '{{modal_id}}Form' ,'{{auto_id_field_err}}')
+          {% else %}
+          FormAjaxCKeditorModal( event, '{{modal_id}}Form' , '{{modal_id}}btn', '{{modal_id}}lbtn', '{{modal_id}}Form' ,'{{auto_id_field_err}}')
+          {% endif %}"
+          method="POST"
+        >
+          {% csrf_token %}
+          {% load widget_tweaks %}
+          <div class="form-row">
+            {% for field in form.visible_fields %}
+            <div class="{% if not field.field.widget.input_type %}col-md-12{% else %}col-md-6{% endif %}">
+              <div class="form-group mb-3">
+                {{field.label_tag}}
+                {% if field.field.widget.input_type == 'file' %}
+                {% render_field field|add_class:"form-control-file" %}
+                {% elif field.field.widget.input_type  == 'checkbox' %}
+                <div class="custom-control custom-switch custom-checkbox-success">
+                  {% render_field field|add_class:"custom-control-input" %}
+                  <label class="custom-control-label" for="{{field.id_for_label}}">{{field.label}}</label>
+                </div>
+                {% elif field.field.widget.input_type  == 'select' %}
+                {% render_field field|add_class:"form-control" %}
+                {% elif field.field.widget.input_type == 'number' or field.field.widget.input_type == 'text' or field.field.widget.input_type == 'password' %}
+                {% render_field field|add_class:"form-control" %}
+                {% else %}
+                {% render_field field|add_class:"form-control" %}
+                {% endif %}
+                <div class="invalid-feedback mt-2 d-block d-block err " id="err_{{field.id_for_label}}">{{field.errors}}</div>
+                <small id="{{field.name}}Help" class="form-text text-muted m-0" style="line-height: 1">{{ field.help_text|safe }}</small>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary cancel" data-dismiss="modal"> بستن </button>
+          <button class="btn btn-success" id="{{modal_id}}btn">
+            {{btn_footer_value}}
+          </button>
+          <button class="btn btn-success" type="button" style="display: none" id="{{modal_id}}lbtn" disabled>
+            <span class="spinner-border spinner-border-sm mr-2" role="status" aria-hidden="true"></span>
+            در حال پردازش ...
+          </button>
+        </div>
+        </form>
+        <!-- ./ form -->
+      </div>
+    </div>
+  </div>
+</div>
+ 
+{{form.media.js}}

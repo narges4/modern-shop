@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /usermedia/*
+Disallow: /media/*
+Disallow: /master/*
+Disallow: /customer/*
+Disallow: /operator/*
+Disallow: /representation/*
+Disallow: /office/*
+Disallow: /api/*

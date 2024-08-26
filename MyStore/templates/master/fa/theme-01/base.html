@@ -1,0 +1,714 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>{{site_settings.title}} | پنل مدیریت</title>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{% if site_settings.main_logo %}{{site_settings.main_logo.url}}{% endif %}">
+
+	<!-- Theme Color -->
+	<meta name="theme-color" content="#5867dd">
+
+	<!-- Plugin styles -->
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}vendors/bundle.css" type="text/css">
+
+	<!-- Datepicker -->
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}vendors/datepicker/daterangepicker.css">
+
+	<!-- Slick -->
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}vendors/slick/slick.css">
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}vendors/slick/slick-theme.css">
+
+	<!-- Vmap -->
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}vendors/vmap/jqvmap.min.css">
+
+	<!-- App styles -->
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}assets/css/app.css" type="text/css">
+	<link rel="stylesheet" href="{% static 'master/theme-01/assets/master/' %}assets/css/responsive.bootstrap.min.css" type="text/css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    {% block headblock %}
+    {% endblock %}
+
+</head>
+
+<body> 
+	<!-- begin::sidebar user profile -->
+	<div class="sidebar" id="userProfile">
+		<div class="text-center p-4">
+			<figure class="avatar avatar-state-success avatar-lg mb-4">
+				<img src="{% if user.picture %}{{user.picture.url}}{% else %}{% static 'master/theme-01/assets/master/' %}assets/media/image/avatar.jpg{% endif %}" class="rounded-circle" alt="image">
+			</figure>
+			<h4 class="text-success m-b-10">نرگس الماسی</h4>
+			<p class="text-muted d-flex align-items-center justify-content-center line-height-0 mb-0">
+				مدیر 
+				<a href="" class="ml-2"  title="بروزرسانی پروفایل" > <i class="ti-settings"></i> </a>
+				<a href="" class="ml-2" title=" تغییر رمزعبور"> <i class="fa-solid fa-lock"></i></a>
+			</p>
+		</div>
+		<hr class="m-0">
+		<div class="p-4">   
+			<div class="mb-4">
+				{% comment %} <h6 class="font-size-13 mb-3">تنظیمات</h6>
+				<div class="form-group">
+					<div class="form-item custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch11">
+						<label class="custom-control-label" for="customSwitch11">مسدود کردن</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="form-item custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" checked id="customSwitch12">
+						<label class="custom-control-label" for="customSwitch12">بیصدا کردن</label>
+					</div>
+				</div> 
+				
+				{% endcomment %}
+			</div>
+		</div>
+	</div>
+	<!-- end::sidebar user profile -->
+
+	<!-- begin::sidebar settings -->
+	<!-- <div class="sidebar" id="settings">
+		<header>
+			<i class="ti-settings"></i> تنظیمات
+		</header>
+		<div class="p-4">
+			<div class="mb-3">
+				<h6 class="font-size-13 mb-3 text-muted">سیستم</h6>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>به روز رسانی خودکار</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+							<label class="custom-control-label" for="customSwitch1"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>وضعیت کنونی</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch2" checked>
+							<label class="custom-control-label" for="customSwitch2"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>پیشنهادات کاربران</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch3" checked>
+							<label class="custom-control-label" for="customSwitch3"></label>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mb-3">
+				<h6 class="font-size-13 mb-3 text-muted">حساب کاربری</h6>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>امنیت حساب کاربری ارشد</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch4">
+							<label class="custom-control-label" for="customSwitch4"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>حفاظت حساب کاربری</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch5" checked>
+							<label class="custom-control-label" for="customSwitch5"></label>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mb-3">
+				<h6 class="font-size-13 mb-3 text-muted">اعلان ها</h6>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>اعلان های مرورگر</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch6">
+							<label class="custom-control-label" for="customSwitch6"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>اعلان های موبایل</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch7">
+							<label class="custom-control-label" for="customSwitch7"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>اشتراک ایمیل</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch8">
+							<label class="custom-control-label" for="customSwitch8"></label>
+						</div>
+					</li>
+					<li class="list-group-item d-flex justify-content-between p-l-r-0 p-t-b-5">
+						<span>اعلان های sms</span>
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="customSwitch9" checked>
+							<label class="custom-control-label" for="customSwitch9"></label>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div> -->
+	<!-- end::sidebar settings -->
+
+	<!-- begin::navigation -->
+	<div class="navigation">
+		<div class="navigation-icon-menu">
+			<ul>
+				<li class="active" data-toggle="tooltip" title="تنطیمات">
+					<a href="#navigationSettings" title="تنطیمات"> 
+						<i class="icon fa-solid fa-sliders"></i>
+						<span class="badge badge-warning">2</span>
+					</a>
+				</li>
+				<!-- <li data-toggle="tooltip" title="دسترسی ها">
+					<a href="#navigationAccess" title="دسترسی ها"> 
+						<i class="icon ti-user"></i>
+					</a>
+				</li> -->
+				{% comment %} <li data-toggle="tooltip" title="امورمالی">
+					<a href="#navigationWallet" title="امورمالی"> 
+						<i class="icon fa-solid fa-wallet"></i>
+					</a>
+				</li>  {% endcomment %}
+				<li data-toggle="tooltip" title="مجله ها">
+					<a href="#navigationJournals">  
+						<i class="icon fa-solid fa-newspaper"></i>
+					</a>
+				</li>
+				<!-- <li data-toggle="tooltip" title="خدمات">
+					<a href="#navigationServices"> 
+						{% comment %} <i class="icon fa-solid fa-rectangle-list"></i> {% endcomment %}
+						<i class="icon ti-headphone"></i>
+					</a>
+				</li>
+				<li data-toggle="tooltip" title="گزارشات">
+					<a href="#navigationReports" title="گزارشات"> 
+						<i class="icon fa-regular fa-note-sticky"></i>
+					</a>
+				</li> -->
+				{% comment %} <li data-toggle="tooltip" title="امورمالی">
+					<a href="#navigationFinancialDepartment"> 
+						<i class="icon ti-credit-card"></i>
+					</a>
+				</li>
+				<li data-toggle="tooltip" title="پشتیبانی">
+					<a href="#navigationSupport" title="پشتیبانی">
+						<i class="icon ti-headphone"></i>
+					</a>
+				</li> {% endcomment %}
+			</ul>
+			<ul> 
+				<li data-toggle="tooltip" title="خروج">
+					<a href="" class="go-to-page">
+						<i class="icon ti-power-off"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navigation-menu-body">
+			<ul id="navigationSettings" class="navigation-active">
+				<li class="navigation-divider">داشبورد</li>
+				<li>
+					<a href="">داشبورد</a>
+				</li>
+				<!-- <li class="navigation-divider">تنطیمات</li>
+				<li>
+					<a href="#">تنطیمات پایه</a>
+					<ul>
+						<li><a href="">اطلاعات سایت</a></li>
+						<li><a href=""> صفحه ورود سایت</a></li>
+						<li><a href=""> درگاه بانکی</a></li>
+						<li><a href="">لوگوها</a></li>
+						<li><a href="">ورود و ثبت نام</a></li>
+						<li><a href="">تصاویر</a></li>
+						<li><a href="">لینک ها</a></li>
+						<li><a href="">سوالات متداول</a></li>
+					</ul>
+				</li>     -->
+				<!-- <li>
+					<a href="#">قوانین و راهنما</a>
+					<ul>
+						{% comment %} <li class="navigation-divider">قوانین</li>  {% endcomment %}
+						<li><a href="">حریم خصوصی</a></li> 
+						{% comment %} <li class="navigation-divider">راهنما</li> {% endcomment %}
+						<li><a href="">شرایط استفاده</a></li> 
+					</ul>
+				</li>  
+				<li>
+					<a href="#">تماس با ما</a>
+					<ul> 
+						{% comment %} <li><a href="">اطلاعات تماس</a></li>  {% endcomment %}
+						<li><a href="">شبکه های اجتماعی</a></li>
+						{% comment %} <li><a href="">پیام ها</a></li>  {% endcomment %}
+					</ul>
+				</li>     
+				<li class="navigation-divider">خلاصه</li>
+				<li>
+					<a href="" class="mb-2">
+						<div class="d-flex align-items-center">
+							<div>
+								<div class="icon-block bg-warning text-white mr-3">
+									<i class="ti-bar-chart"></i>
+								</div>
+							</div>
+							<div>
+								<h6 class="font-size-13 line-height-22 primary-font m-b-5">خدمات فعال</h6>
+								<h4 class="m-b-0 primary-font font-weight-bold line-height-30">{{service_count}}</h4>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="" class="mb-2">
+						<div class="d-flex align-items-center">
+							<div>
+								<div class="icon-block bg-success text-white mr-3">
+									<i class="ti-email"></i>
+								</div>
+							</div>
+							<div>
+								<h6 class="font-size-13 line-height-22 primary-font m-b-5">اتاق های مشاوره</h6>
+								<h4 class="m-b-0 primary-font font-weight-bold line-height-30">{{room_count}}</h4>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="d-flex align-items-center">
+							<div>
+								<div class="icon-block bg-info text-white mr-3">
+									<i class="ti-user"></i>
+								</div>
+							</div>
+							<div>
+								<h6 class="font-size-13 line-height-22 primary-font m-b-5">کاربران</h6>
+								<h4 class="m-b-0 primary-font font-weight-bold line-height-30">{{customer_count}}</h4>
+							</div>
+						</div>
+					</a>
+				</li> -->
+			</ul>
+			<!-- <ul id="navigationAccess">
+				<li class="navigation-divider">مدیران</li>
+				<li><a href="">مدیران</a></li>
+				<li><a href="">دسترسی خدمات</a></li>
+				<li class="navigation-divider">کاربران</li>
+				<li><a href="">کاربران</a></li>
+				<li class="navigation-divider">نمایندگی ها</li>
+				<li><a href="">نمایندگی</a></li>
+				<li class="navigation-divider">اپ ها</li>
+				<li><a href="">اپ ها</a></li>
+			</ul> -->
+			<ul id="navigationJournals">
+				<li class="navigation-divider">مجله ها</li>
+				<li><a href="/master/magazine/category/">دسته بندی مجله ها</a></li> 
+				<li><a href="">مجله ها</a></li> 
+			</ul>
+			{% comment %} <ul id="navigationWallet">
+				<li class="navigation-divider">امورمالی</li> 
+				<li><a href="">تراکنش ها</a></li> 
+			</ul> {% endcomment %}
+			<ul id="navigationServices"> 
+				<li class="navigation-divider">خدمات</li>
+
+				<li><a href="">لیست خدمات</a></li> 
+				<li><a href="">اتاق های مشاوره</a></li> 
+				<li><a href="">لیست محصولات</a></li> 
+				 
+			</ul>
+			{% comment %} 
+			<!-- <ul id="navigationFinancialDepartment">
+				<li class="navigation-divider">امورمالی</li>
+			</ul>
+			<ul id="navigationSupport">
+				<li class="navigation-divider">پشتیبانی</li>
+				<li>
+					<a href="/master/ticket/archive/all/">تیکت ها</a>
+				</li> 
+			</ul> {% endcomment %}
+			<ul id="navigationReports">
+				<li class="navigation-divider"> » گزارشات</li>
+				<li><a href="">فعالیت</a></li> 
+				<li><a href="">گزارش فعالیت کاربران</a></li>
+			</ul> -->
+		</div>
+	</div>
+	<!-- end::navigation -->
+
+	<!-- begin::header -->
+	<div class="header">
+
+		<!-- begin::header logo -->
+		<div class="header-logo" >
+			{% comment %} <a href="index.html">
+				<img class="large-logo" src="{% static 'master/theme-01/assets/master/' %}assets/media/image/logo_.png" alt="image">
+				<img class="small-logo" src="{% static 'master/theme-01/assets/master/' %}assets/media/image/logo-sm.png" alt="image">
+				<img class="dark-logo" src="{% static 'master/theme-01/assets/master/' %}assets/media/image/logo-dark.png" alt="image">
+			</a>  {% endcomment %}
+		</div>
+		<!-- end::header logo -->
+
+		<!-- begin::header body -->
+		<div class="header-body">
+
+			<div class="header-body-left">
+
+				<h3 class="page-title">داشبورد</h3>
+
+				<!-- begin::breadcrumb -->
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						{% comment %} <li class="breadcrumb-item"><a href="#">داشبورد</a></li> {% endcomment %}
+						<li class="breadcrumb-item active" aria-current="page">{{khayyam_date}}</li>
+					</ol>
+				</nav>
+				<!-- end::breadcrumb -->
+
+			</div>
+
+			<div class="header-body-right">
+				<!-- begin::navbar main body -->
+				<ul class="navbar-nav">
+					{% comment %} <li class="nav-item">
+						<form>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="جستجو">
+								<div class="input-group-append">
+									<button class="btn btn-light" type="button">
+										<i class="ti-search"></i>
+									</button>
+								</div>
+							</div>
+						</form>
+					</li> {% endcomment %}
+					{% comment %} <li class="nav-item dropdown">
+						<a href="#" class="nav-link" data-toggle="dropdown">
+							<i class="ti-plus"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+							<div class="p-3">
+								<h6 class="font-size-13 m-b-15">دسترسی سریع</h6>
+								<div class="row">
+									<div class="col-6">
+										<a href="#">
+											<div class="d-flex flex-column font-size-13 bg-danger-bright bg-hover pt-3 pb-3 border-radius-1 text-danger text-center mb-3">
+												<i class="fa fa-sitemap mb-2 font-size-20"></i>
+												دسته‌بندی ها
+											</div>
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<div class="d-flex flex-column font-size-13 bg-info-bright bg-hover pt-3 pb-3 border-radius-1 text-info text-center mb-3">
+												<i class="ti-game mb-2 font-size-20"></i>
+												محصولات
+											</div>
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<div class="d-flex flex-column font-size-13 bg-warning-bright bg-hover pt-3 pb-3 border-radius-1 text-warning text-center">
+												<i class="ti-bar-chart-alt mb-2 font-size-20"></i>
+												گزارشات
+											</div>
+										</a>
+									</div>
+									<div class="col-6">
+										<a href="#">
+											<div class="d-flex flex-column font-size-13 bg-secondary-bright bg-hover pt-3 pb-3 border-radius-1 text-secondary text-center">
+												<i class="fa fa-share mb-2 font-size-20"></i>
+												سایر
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link nav-link-notify" data-toggle="dropdown">
+							<i class="ti-comment"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+							<div class="p-4 text-center" data-backround-image="{% static 'master/theme-01/assets/master/' %}assets/media/image/image1.png">
+								<h6 class="m-b-0">پیام ها</h6>
+								<small class="font-size-13 opacity-7 d-inline-block m-t-5">1 پیام خوانده نشده</small>
+							</div>
+							<div>
+								<ul class="list-group list-group-flush">
+									<li>
+										<a href="#" class="p-3 list-group-item d-flex align-items-center link-1 hide-show-toggler">
+											<div>
+												<figure class="avatar avatar-sm m-r-15">
+													<span class="avatar-title bg-success rounded-circle">آ</span>
+												</figure>
+											</div>
+											<div class="flex-grow-1">
+												<h6 class="mb-1 d-flex justify-content-between primary-font">
+													استیو راجرز
+													<i title="علامت خوانده نشده" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-13"></i>
+												</h6>
+												<span class="text-muted m-r-10 small">08:50 ب.ظ</span>
+												<span class="text-muted small line-height-24">لورم ایپسوم متن ساختگی</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="p-3 list-group-item d-flex align-items-center link-1 bg-secondary-bright hide-show-toggler">
+											<div>
+												<figure class="avatar avatar-sm m-r-15">
+													<span class="avatar-title bg-primary rounded-circle">ج</span>
+												</figure>
+											</div>
+											<div class="flex-grow-1">
+												<h6 class="mb-1 d-flex justify-content-between primary-font">
+													جان اسنو
+													<i title="علامت خوانده شده" data-toggle="tooltip" class="hide-show-toggler-item fa fa-circle-o font-size-13"></i>
+												</h6>
+												<span class="text-muted m-r-10 small">10:23 ب.ظ</span>
+												<span class="text-muted small line-height-24">لورم ایپسوم متن ساختگی</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="p-3 list-group-item d-flex align-items-center link-1 hide-show-toggler">
+											<div>
+												<figure class="avatar avatar-sm m-r-15">
+													<span class="avatar-title bg-danger rounded-circle">ک</span>
+												</figure>
+											</div>
+											<div class="flex-grow-1">
+												<h6 class="mb-1 d-flex justify-content-between primary-font">
+													استیو جابز
+													<i title="علامت خوانده نشده" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-13"></i>
+												</h6>
+												<span class="text-muted m-r-10 small">08:50 ب.ظ</span>
+												<span class="text-muted small line-height-24">لورم ایپسوم متن ساختگی</span>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="p-3 list-group-item d-flex align-items-center link-1 hide-show-toggler">
+											<div>
+												<figure class="avatar avatar-sm m-r-15">
+													<span class="avatar-title bg-info rounded-circle">ن‌پ</span>
+												</figure>
+											</div>
+											<div class="flex-grow-1">
+												<h6 class="mb-1 d-flex justify-content-between primary-font">
+													ناتالی پورتمن
+													<i title="علامت خوانده نشده" data-toggle="tooltip" class="hide-show-toggler-item fa fa-check font-size-13"></i>
+												</h6>
+												<span class="text-muted m-r-10 small">20:13 ب.ظ</span>
+												<span class="text-muted small line-height-24">لورم ایپسوم متن ساختگی</span>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="p-3 text-right">
+								<ul class="list-inline small">
+									<li class="list-inline-item">
+										<a href="#">علامت خوانده شده به همه</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li> {% endcomment %}
+					{% comment %} <li class="nav-item dropdown">
+						<a href="#" class="nav-link" data-toggle="dropdown">
+							<i class="ti-bell"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right dropdown-menu-big">
+							<div class="p-4 text-center" data-backround-image="{% static 'master/theme-01/assets/master/' %}assets/media/image/image1.png">
+								<h6 class="m-b-0">اعلان ها</h6>
+								<small class="font-size-13 opacity-7">2 اعلان خوانده نشده</small>
+							</div>
+							<div class="p-3">
+								<div class="timeline">
+									<div class="timeline-item">
+										<div>
+											<figure class="avatar avatar-state-danger avatar-sm m-r-15 bring-forward">
+												<span class="avatar-title bg-info-bright text-info rounded-circle">
+													<i class="fa fa-file-text-o font-size-20"></i>
+												</span>
+											</figure>
+										</div>
+										<div>
+											<p class="m-b-5">
+												<a href="#">استیو جابز</a> یک ضمیمه جدید به تیکت افزود
+												<a href="#">گزارش باگ نرم افزار</a>
+											</p>
+											<small class="text-muted">
+												<i class="fa fa-clock-o m-r-5"></i> 8 ساعت پیش
+											</small>
+										</div>
+									</div>
+									<div class="timeline-item">
+										<div>
+											<figure class="avatar avatar-state-danger avatar-sm m-r-15 bring-forward">
+												<span class="avatar-title bg-warning-bright text-warning rounded-circle">
+													<i class="fa fa-money font-size-20"></i>
+												</span>
+											</figure>
+										</div>
+										<div>
+											<p class="m-b-5">
+												<a href="#">کاترین</a> یک تیکت جدید ثبت کرد
+												<a href="#">نحوه پرداخت</a>
+											</p>
+											<small class="text-muted">
+												<i class="fa fa-clock-o m-r-5"></i> دیروز
+											</small>
+										</div>
+									</div>
+									<div class="timeline-item">
+										<div>
+											<figure class="avatar avatar-sm m-r-15 bring-forward">
+												<span class="avatar-title bg-success-bright text-success rounded-circle">
+													<i class="fa fa-dollar font-size-20"></i>
+												</span>
+											</figure>
+										</div>
+										<div>
+											<p class="m-b-5">
+												<a href="#">کاترین</a> تنظیمات دسته تیکت را تغییر داد
+												<a href="#">پرداخت و صورتحساب</a>
+											</p>
+											<small class="text-muted">
+												<i class="fa fa-clock-o m-r-5"></i> 1 روز پیش
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="p-3 text-right">
+								<ul class="list-inline small">
+									<li class="list-inline-item">
+										<a href="#">علامت خوانده شده به همه</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li> {% endcomment %}
+					 <li class="nav-item dropdown">
+						<a href="#" class="nav-link bg-none" data-sidebar-open="#userProfile">
+							<div>
+								<figure class="avatar avatar-state-success avatar-sm">
+									<img src="{% if user.picture %}{{user.picture.url}}{% else %}{% static 'master/theme-01/assets/master/' %}assets/media/image/avatar.jpg{% endif %}" class="rounded-circle" alt="image">
+								</figure>
+							</div>
+						</a>
+					</li> 
+				</ul>
+				<!-- end::navbar main body -->
+
+				<div class="d-flex align-items-center">
+					<!-- begin::navbar navigation toggler -->
+					<div class="d-xl-none d-lg-none d-sm-block navigation-toggler">
+						<a href="#">
+							<i class="ti-menu"></i>
+						</a>
+					</div>
+					<!-- end::navbar navigation toggler -->
+
+					<!-- begin::navbar toggler -->
+					<div class="d-xl-none d-lg-none d-sm-block navbar-toggler">
+						<a href="#">
+							<i class="ti-arrow-down"></i>
+						</a>
+					</div>
+					<!-- end::navbar toggler -->
+				</div>
+			</div>
+
+		</div>
+		<!-- end::header body -->
+
+	</div>
+	<!-- end::header -->
+
+	<!-- begin::main content -->
+	<main class="main-content">
+
+        {% block mainblock %}
+        {% endblock %}
+
+	</main>
+	{% csrf_token %}
+	<!-- end::main content -->
+
+	<!-- Plugin scripts -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/bundle.js"></script>
+
+	<!-- Chartjs -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/charts/chartjs/chart.min.js"></script>
+
+	<!-- Circle progress -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/circle-progress/circle-progress.min.js"></script>
+
+	<!-- Peity -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/charts/peity/jquery.peity.min.js"></script>
+	<script src="{% static 'master/theme-01/assets/master/' %}assets/js/examples/charts/peity.js"></script>
+
+	<!-- Datepicker -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/datepicker/daterangepicker.js"></script>
+
+	<!-- Slick -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/slick/slick.min.js"></script>
+
+	<!-- Vamp -->
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/vmap/jquery.vmap.min.js"></script>
+	<script src="{% static 'master/theme-01/assets/master/' %}vendors/vmap/maps/jquery.vmap.usa.js"></script>
+	<script src="{% static 'master/theme-01/assets/master/' %}assets/js/examples/vmap.js"></script>
+
+	<!-- Dashboard scripts -->
+	<script src="{% static 'master/theme-01/assets/master/' %}assets/js/examples/dashboard.js"></script>
+	<div class="colors">
+		<!-- To use theme colors with Javascript -->
+		<div class="bg-primary"></div>
+		<div class="bg-primary-bright"></div>
+		<div class="bg-secondary"></div>
+		<div class="bg-secondary-bright"></div>
+		<div class="bg-info"></div>
+		<div class="bg-info-bright"></div>
+		<div class="bg-success"></div>
+		<div class="bg-success-bright"></div>
+		<div class="bg-danger"></div>
+		<div class="bg-danger-bright"></div>
+		<div class="bg-warning"></div>
+		<div class="bg-warning-bright"></div>
+	</div>
+
+	<!-- App scripts -->
+	<script src="{% static 'master/theme-01/assets/master/' %}assets/js/app.js"></script>
+	<script>
+		let csrftoken_ = document.querySelector("[name=csrfmiddlewaretoken]").value;
+	</script>
+    {% block footerblock %}
+    {% endblock %}
+
+<!-- DataTable -->
+<script src="{% static 'master/theme-01/assets/master/' %}vendors/dataTable/jquery.dataTables.min.js"></script>
+<script src="{% static 'master/theme-01/assets/master/' %}vendors/dataTable/dataTables.bootstrap4.min.js"></script>
+<script src="{% static 'master/theme-01/assets/master/' %}vendors/dataTable/dataTables.responsive.min.js"></script>
+<script src="{% static 'master/theme-01/assets/master/' %}assets/js/examples/datatable.js"></script>
+	<script src="{% static 'master/theme-01/assets/master/' %}assets/js/myjs.js"></script>
+</body>
+
+</html>

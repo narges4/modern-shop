@@ -1,0 +1,8728 @@
+@media (min-width: 1600px) and (max-width: 1850.399px) {
+  .col-menu {
+    flex: 1 0 18%;
+    max-width: 18%;
+  }
+
+  .menu-fixed {
+    width: 18%;
+  }
+
+  .small-navigation {
+    left: 92%;
+  }
+
+  .col-content-all-page {
+    flex: 1 0 82%;
+    max-width: 82%;
+  }
+
+  .menu-fixed .item-menu ul li {
+    width: 83px;
+    height: 90px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .col-calc {
+    flex: 1 0 80%;
+    max-width: 80%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 80%;
+  }
+
+  .col-cards {
+    flex: 1 0 70%;
+    max-width: 70%;
+    margin-top: 20px !important;
+  }
+
+  .text-card-registration {
+    margin-top: 20px;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .info-top-profile .item span {
+    font-size: 1em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .col-btn-profile-edit,
+  .col_buy_sell_page {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .col_ticket_list {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .between-ticket ul li {
+    padding: 5px 10px;
+  }
+
+  .form-complete-profile .label-select-img {
+    font-size: 11px;
+    padding: 13px 5px;
+    margin-left: 5px;
+  }
+
+  .right-ticket .logo-ticket span.link-site {
+    font-size: 0.7em;
+  }
+
+  .left-ticket .info-ticket p {
+    line-height: 20px;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+  }
+
+  .between-ticket .status p {
+    font-size: 0.8em;
+  }
+
+  .between-ticket .status span {
+    padding: 10px 5px;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    display: block;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    margin-top: 15px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  .col-currency-buy-input:last-child {
+    padding: 0;
+  }
+
+  .price-usd-ir p {
+    font-size: 0.75em;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .address-wallet .address {
+    font-size: 0.65em;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    font-size: 0.9em;
+  }
+
+  .info-invoice p.status {
+    font-size: 0.8em;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.65em;
+  }
+
+  .left-whell {
+    padding-bottom: 50px;
+  }
+
+  .left-whell h3 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text p::before {
+    right: -10%;
+  }
+
+  .col_mission_details {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .mission .item_mission img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .info_wallet_toman {
+    display: block;
+  }
+
+  .col_error_report {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .col_error_report {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+  .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1599.98px) {
+
+  .col_mission_details,
+  .col_calc_panel {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .title_bill .form_search_bill {
+    min-width: 80%;
+  }
+
+  .info-transaction .item .text p {
+    font-size: 0.85em;
+  }
+
+  .col_error_report {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+  .col-menu {
+    flex: 1 0 22%;
+    max-width: 22%;
+  }
+
+  .col-btn-edit-profile {
+    flex: 1 0 25%;
+    max-width: 25%;
+  }
+
+  .menu-fixed {
+    width: 22%;
+  }
+
+  .small-navigation {
+    left: 87%;
+  }
+
+  .col-content-all-page {
+    flex: 1 0 78%;
+    max-width: 78%;
+  }
+
+  .menu-fixed .item-menu ul li {
+    width: 90px;
+    height: 93px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .col-calc {
+    flex: 1 0 80%;
+    max-width: 80%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after,
+  .more_details_wallet_toman,
+  .icon_wallet_ir {
+    display: none !important;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 80%;
+  }
+
+  .col-cards {
+    flex: 1 0 80%;
+    max-width: 80%;
+    margin-top: 20px !important;
+  }
+
+  .text-card-registration {
+    margin-top: 20px;
+  }
+
+  .phon-verify {
+    padding: 15px;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 15px;
+  }
+
+  .col-currencies-list,
+  .col_activity,
+  .col-card-register,
+  .col_ceiling {
+    flex: 1 0 33%;
+    max-width: 33%;
+  }
+
+  .box-currency .buy-sell a {
+    font-size: 0.8em;
+    width: 80px;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .info-top-profile .item {
+    padding: 10px;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .col-btn-profile-edit,
+  .col_calc_panel_currency,
+  .col_buy_sell_page {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .col_calc_panel_currency:first-child {
+    padding-left: 5px;
+  }
+
+  .col_calc_panel_currency:nth-of-type(2) {
+    padding-right: 5px;
+  }
+
+  .col_calc_panel_currency .input-price-coin-1 {
+    margin-top: 0 !important;
+    height: 100%;
+  }
+
+  .user-status {
+    padding: 15px 5px;
+  }
+
+  .user-status p {
+    font-size: 0.9em;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-ticket::before {
+    left: -29px;
+  }
+
+  .info-ticket-details .information .item {
+    font-size: 0.8em;
+  }
+
+  .profile-card img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-card>div h4 {
+    font-size: 0.9em;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    margin-top: 15px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  .info-calc-home {
+    margin-top: 15px;
+  }
+
+  .assets-list {
+    height: 375px;
+  }
+
+  .info-calc-home .show-price {
+    margin-bottom: 10px;
+  }
+
+  .col-convert {
+    flex: 1 0 41.66%;
+    max-width: 41.66%;
+  }
+
+  .col-wallet,
+  .col_price_calc_panel,
+  .col-convrt-home,
+  .col_wallet_direct {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .col-amount-convert {
+    flex: 1 0 91.66%;
+    max-width: 91.66%;
+  }
+
+  .col-convert-details-currency,
+  .col-info-wallet-irt {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network.network_kucoin {
+    background-color: transparent;
+    border: none;
+  }
+
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 65px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .col-currency-buy-input {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .last-transaction-wallet {
+    height: 100%;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .col-info-wallet-irt:first-child {
+    margin-top: 1rem !important;
+  }
+
+  .item-currency-wallet-bottom .address-wallet .address {
+    font-size: 0.7em;
+  }
+
+  .info-invoice p.status {
+    font-size: 0.75em;
+  }
+
+  .col-invoice,
+  .col-box-academy,
+  .col_wallet_,
+  .col-wallet-8 {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .img-transfer-convert img {
+    width: 100%;
+  }
+
+  .chart-panel {
+    height: 100% !important;
+  }
+
+  .circle-previw-img {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+  }
+
+  .col-send-auth,
+  .col-withdraw,
+  .col-well,
+  .col-airdrop,
+  .col_comment_academy,
+  .col_consulation,
+  .col_buy_currency,
+  .col_game_question,
+  .col_list_info_market,
+  .col_form_market,
+  .col_market_package,
+  .col_error_report {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .col_currency_market {
+    display: none !important;
+  }
+
+  .col_currency_market_2,
+  .info_wallet_toman {
+    display: block !important;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .col-withdraw:first-child {
+    padding: 0 15px !important;
+  }
+
+  .col-upload-auth,
+  .col-wallet-8 {
+    flex: 1 0 66.66%;
+    max-width: 66.66%;
+  }
+
+  .col-list-auth {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .col-send-auth {
+    margin-top: 20px !important;
+  }
+
+  .info-invoice .invoice-item span,
+  .info-invoice .invoice-item p {
+    font-size: 0.85em;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.65em;
+  }
+
+  .deposit form input#wallet {
+    font-size: 0.65em;
+  }
+
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    font-size: 0.7em;
+  }
+
+  .col-well-d-block {
+    display: block !important;
+  }
+
+  .col-well-d-none {
+    display: none !important;
+  }
+
+  .purple-border {
+    transform: translate(15px, -30px) scale(0.85);
+  }
+
+  .left-whell {
+    padding: 0 50px !important;
+    padding-top: 50px !important;
+  }
+
+  .left-whell h3 {
+    font-size: 5.5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.3em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    right: -3%;
+    width: 25px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .col-certificate,
+  .col_currency_market_2 {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .col-airdrop,
+  .col_buy_currency {
+    margin-bottom: 20px !important;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .col_consulation {
+    padding: 0 15px !important;
+  }
+
+  .guid_buy_sell_currency .tab-content.not_PM_PSV {
+    height: 420px;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .col_game_none,
+  .exchange_request_none {
+    display: none !important;
+  }
+
+  .col_game_block,
+  .exchange_request_show {
+    display: block !important;
+  }
+
+  .mission .item_mission img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .col-guid_market,
+  .col_order_market_tab {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .guid_market {
+    height: 100%;
+  }
+
+  .order_market_tab {
+    height: 100% !important;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .col_chart_market {
+    margin-top: 1rem !important;
+  }
+
+
+  .info_course .col_course_box {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  /* .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da;
+  } */
+  .deposit .network.network_kucoin #amount,
+  .deposit .network.network_kucoin #withdrow-PS-PM {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 20%) !important;
+  }
+
+  .calc-card .coin-1 span,
+  .currency-drop-down-coin-1 span {
+    font-size: 0.7em;
+  }
+
+  .convert-select-coin span {
+    font-size: 0.75em;
+  }
+
+  .convert-drop-down .item span {
+    font-size: 0.7em;
+  }
+
+  .convert-select-coin img {
+    width: 25px;
+    height: 25px;
+  }
+  .increase-inventory p{
+    font-size: .7rem !important;
+  }
+  .increase-inventory{
+    padding: 15px;
+  }
+  .investing{
+    padding: 15px 8px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439.399px) {
+  .withdraw_wallet_btn_Max {
+    left: 0% !important;
+  }
+
+  .col-menu {
+    flex: 1 0 22%;
+    max-width: 22%;
+  }
+
+  .title_bill .form_search_bill {
+    min-width: 80%;
+  }
+
+  .title_bill .mt-4 p {
+    font-size: 0.85em;
+  }
+
+  .survey_list .btn {
+    font-size: 0.8em;
+  }
+
+  .menu-fixed {
+    width: 22%;
+  }
+
+  .small-navigation {
+    left: 86%;
+  }
+
+  .img-two-step-login {
+    display: none !important;
+  }
+
+  .col-content-all-page {
+    flex: 1 0 78%;
+    max-width: 78%;
+  }
+
+  .menu-fixed .item-menu ul li {
+    width: 78px;
+    height: 90px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .col-calc {
+    flex: 1 0 90%;
+    max-width: 90%;
+  }
+
+  .about-us .col-xl-6 {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .row-box-about .col-xl-3,
+  .col-card-register {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .img-about-us img {
+    width: 60%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after,
+  .icon_wallet_ir {
+    display: none !important;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 80%;
+  }
+
+  .col-news,
+  .col-cards,
+  .col-ticket,
+  .col-profile,
+  .col-accept-step-login,
+  .col-currency-details,
+  .col-currency-buy-input,
+  .col-wallet,
+  .col-toverification,
+  .col-convert,
+  .col-send-auth,
+  .col-buy-sell-list,
+  .col-withdraw,
+  .col-well,
+  .col-academy-search,
+  .col-airdrop,
+  .col_comment_academy,
+  .col_consulation,
+  .col_buy_currency,
+  .col_game_question,
+  .col_mission_details,
+  .col_list_info_market,
+  .col_form_market,
+  .col_market_package,
+  .col_document,
+  .col_baner_port,
+  .col_box_awards,
+  .col_error_report,
+  .col-wallet-4,
+  .col-wallet-8,
+  .col-box-serach-pagesarch {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .col_box_awards img {
+    margin-top: -110px !important;
+  }
+
+  .col_error_report {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+  .col_document {
+    margin-bottom: 20px !important;
+    padding: 0 15px !important;
+  }
+
+  .col_currency_market,
+  .col_box_awards_none {
+    display: none !important;
+  }
+
+  .col_currency_market_2,
+  .col_box_awards_show {
+    display: block !important;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .col-list-invoice-display-block,
+  .exchange_request_show {
+    display: block !important;
+  }
+
+  .col-list-invoice-display-none,
+  .exchange_request_none {
+    display: none !important;
+  }
+
+  .col-upload-auth,
+  .col_document_left,
+  .col-wallet-direct-address-8,
+  .col-ticket-details.col-lg-8 {
+    flex: 1 0 66.66%;
+    max-width: 66.66%;
+  }
+
+  .col-news,
+  .col_buy_currency {
+    margin-top: 20px !important;
+  }
+
+  .guid_buy_sell_currency .tab-content {
+    height: 465px;
+  }
+
+  .guid_buy_sell_currency .tab-content.not_PM_PSV {
+    height: 420px;
+  }
+
+  .col-invoice,
+  .col-list-auth,
+  .col-mission,
+  .col_document_right,
+  .col_survay,
+  .col_activity,
+  .col-wallet-direct-address-4,
+  .col_wallet_,
+  .col-ticket-details.col-lg-4,
+  .col-referral {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .col-convert-details-currency,
+  .col-info-wallet-irt,
+  .col-box-academy,
+  .col-certificate,
+  .col-guid_market,
+  .col_order_market_tab,
+  .col_box_port,
+  .form_request_port_col,
+  .col_ceiling,
+  .col_wallet_direct,
+  .col_buy_sell_page {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .col-withdraw:first-child {
+    padding: 0 15px !important;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .col-currency-details,
+  .col-airdrop {
+    margin-bottom: 20px !important;
+  }
+
+  .col-cards,
+  .col-send-auth {
+    margin-top: 20px !important;
+  }
+
+  .col-accept-step-login {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .col-btn-edit-profile {
+    flex: 1 0 25%;
+    max-width: 25%;
+  }
+
+  .col-profile:first-child {
+    margin-bottom: 20px !important;
+  }
+
+  .col-currencies-list,
+  .col-box-panel {
+    flex: 1 0 33%;
+    max-width: 33%;
+  }
+
+  .box-currency .buy-sell a {
+    font-size: 0.8em;
+    width: 70px;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news .item .img-news img {
+    height: 250px;
+  }
+
+  .phon-verify {
+    padding: 15px;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 15px;
+  }
+
+  .form-complete-profile .img-user-profile img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .img-increase-inventory img {
+    width: 100%;
+  }
+
+  .alert-harvest>div {
+    display: block;
+    text-align: center;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+    text-align: center;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: middle;
+  }
+
+  .info-top-profile .item {
+    padding: 10px 5px;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.8em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .info-top-profile {
+    width: 32% !important;
+  }
+
+  .col-btn-profile-edit,
+  .col_currency_market_2 {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+
+  .user-status {
+    margin-bottom: 15px;
+  }
+
+  .latest-transactions-home .view-all-withdraw,
+  .latest-transactions-home .view-all-deposite,
+  .latest-transactions-home .view-all-ticket {
+    margin-bottom: 10px;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-ticket::before {
+    left: -29px;
+  }
+
+  .text-chat-ticket-details {
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    margin-top: 15px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  .list-cards-reject .item .title {
+    display: block;
+  }
+
+  .list-cards-reject .item .title .bank-number {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject .item .title .bank-number span,
+  .list-cards-reject .item .body p span {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .list-cards-reject .item .title p,
+  .list-cards-reject .item .body p {
+    text-align: center;
+  }
+
+  .list-cards-reject .item .status-card {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject {
+    padding: 30px 15px;
+  }
+
+  .request-ceiling-list {
+    padding: 15px;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 65px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+    border: 1px solid #ced4da;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .last-transaction-wallet {
+    height: 100%;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .col-info-wallet-irt:first-child {
+    margin-top: 1rem !important;
+  }
+
+  .item-currency-wallet-bottom .address-wallet .address {
+    font-size: 0.7em;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 15px 5px;
+  }
+
+  .item-currency-wallet .info .name span {
+    font-size: 0.7em;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    font-size: 0.8em;
+  }
+
+  .info-invoice p.status {
+    font-size: 0.75em;
+    padding: 7px 10px;
+  }
+
+  .img-transfer-convert img {
+    width: 100%;
+  }
+
+  .content-transfer-convert .arrow i {
+    transform: rotate(90deg);
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .col-ticket:last-child {
+    margin-top: 1rem !important;
+  }
+
+  .chart-panel {
+    height: 100% !important;
+  }
+
+  .circle-previw-img {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.75em;
+  }
+
+  .input-number-withdrawal .withdraw-btn-max,
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    background: rgb(0, 174, 201);
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 10px;
+    left: unset;
+    color: #fff !important;
+  }
+
+  .col-well-d-block {
+    display: block !important;
+  }
+
+  .col-well-d-none {
+    display: none !important;
+  }
+
+  .purple-border {
+    transform: translate(15px, -30px) scale(0.85);
+  }
+
+  .left-whell {
+    padding: 0 30px !important;
+    padding-top: 50px !important;
+  }
+
+  .left-whell h3 {
+    font-size: 5.5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.3em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    right: -5%;
+    width: 25px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .col_consulation {
+    padding: 0 15px !important;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .col_game_none {
+    display: none !important;
+  }
+
+  .col_game_block {
+    display: block !important;
+  }
+
+  .col_none_mission_details {
+    display: none !important;
+  }
+
+  .mission .item_mission img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .guid_market {
+    height: 100%;
+  }
+
+  .order_market_tab {
+    height: 100% !important;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .col_chart_market {
+    margin-top: 1rem !important;
+  }
+
+  .arrow_convert {
+    display: none;
+  }
+
+  .col-wallet-xl {
+    display: none !important;
+  }
+
+  .col-wallet-md {
+    display: block !important;
+  }
+
+  .info_course .col_course_box {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .course_details .info_course .rating {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+    font-size: 0.85em;
+  }
+
+  .course_details .title_course_details .login_buy_course a {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+
+  .course_details .title_course_details p {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .login_buy_course {
+    margin-bottom: 15px;
+  }
+
+  .col_course_top {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin: 20px 0;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 250px;
+  }
+
+  .currency_port .introduction .baner_port {
+    display: block !important;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .currency_port .btn_port_currency .img_show {
+    display: flex !important;
+  }
+
+  .currency_port .btn_port_currency .img_hide {
+    display: none !important;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .more_details_wallet_toman {
+    display: flex !important;
+  }
+
+  .col_wallet_direct {
+    padding: 0 10px;
+  }
+
+  .transaction_Wallet .top .item_1 .balance h5 input {
+    font-size: 1.3em;
+  }
+
+  .create_wallet_walletDirect .colLg,
+  .col-wallet-direct-address-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-wallet-direct-address-12 {
+    padding-right: 15px !important;
+    margin-top: 10px !important;
+  }
+
+  .col-wallet-direct-address-8 {
+    padding-left: 15px !important;
+  }
+
+  .guid_buy_sell_currency .tab-content.not_PM_PSV.is_direct {
+    height: 500px;
+  }
+
+  .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da !important;
+  }
+
+  .currency_buy .form_currency_buy .btn_form .error_currency,
+  .currency_sell .form_currency_sell .btn_form .error_currency {
+    font-size: 0.55em;
+  }
+
+  .col-info-convert {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  .currency_buy .price_usd_ir p, .currency_sell .price_usd_ir p{
+    font-size: 0.8em !important;
+  }
+  .currency_buy .title span, .currency_sell .title span{
+    display: inline-block;
+    margin-top: 8px;
+  }
+  .list_currency_page_buySell.not_PM_PSV{
+    height: auto;
+  }
+  #send_code{
+    font-size: 12px;
+  }
+  .increase-inventory p{
+    font-size: .75rem !important;
+  }
+  .increase-inventory{
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100%;
+  }
+
+  .title_bill .form_search_bill {
+    min-width: 75%;
+  }
+
+  .more_details_wallet_toman {
+    display: none !important;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 60%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .icon-menu-md img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-fixed .item-menu ul li .img {
+    width: 65px;
+    height: 75px;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 10px;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 80%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news .item .img-news img {
+    height: 250px;
+  }
+
+  .img-mobile-verify img {
+    width: 50%;
+  }
+
+  .img-increase-inventory img {
+    width: 60%;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 23%;
+    text-align: center;
+  }
+
+  .info-top-profile .item {
+    padding: 10px;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+    width: 49%;
+    display: inline-block;
+    height: auto;
+  }
+
+  .user-status {
+    margin-bottom: 15px;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-ticket::before {
+    left: -29px;
+  }
+
+  .col-ticket {
+    flex: 1 0 80%;
+    max-width: 80%;
+  }
+
+  .col-convert {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .col_wallet_ {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 30px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 65px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+    border: 1px solid #ced4da;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .col-currency-buy-input {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .last-transaction-wallet {
+    height: 100%;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .img-transfer-convert img {
+    width: 90%;
+  }
+
+  .content-transfer-convert .arrow i {
+    transform: rotate(90deg);
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .chart-panel {
+    height: 100% !important;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.8em;
+  }
+
+  .deposit form input#wallet {
+    font-size: 0.65em;
+  }
+
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    font-size: 0.7em;
+  }
+
+  .purple-border {
+    transform: translate(15px, -30px) scale(0.85);
+  }
+
+  .left-whell {
+    padding: 0 30px !important;
+    padding-top: 50px !important;
+  }
+
+  .left-whell h3 {
+    font-size: 5.5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.3em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    right: -4%;
+    width: 30px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .mission .item_mission img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .guid_market {
+    height: 100%;
+  }
+
+  .order_market_tab {
+    height: 100% !important;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .arrow_convert {
+    display: none;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin: 30px 0;
+  }
+
+  .info_course .col_course_box {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .course_details .info_course .rating {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+  }
+
+  .currency_port .introduction {
+    background-size: 57% 95%;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .info_wallet_toman {
+    display: block;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell form {
+    height: 90%;
+  }
+
+  .currency_sell .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell .form_currency_sell form {
+    height: 90%;
+  }
+
+  .currency_buy .title,
+  .currency_sell .title {
+    height: 10%;
+  }
+
+  .currency_buy .form_currency_buy,
+  .currency_sell .form_currency_sell {
+    height: 90%;
+  }
+
+  .currency_buy.not_PM_PSV .title,
+  .currency_sell.not_PM_PSV .title {
+    height: 10%;
+  }
+
+  .currency_buy.not_PM_PSV .form_currency_buy,
+  .currency_sell.not_PM_PSV .form_currency_sell {
+    height: 90%;
+  }
+
+  .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da !important;
+  }
+
+  .col-info-convert {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100%;
+  }
+
+  .title_bill .form_search_bill {
+    min-width: 75%;
+  }
+
+  .more_details_wallet_toman {
+    display: none !important;
+  }
+
+  .info_wallet_toman {
+    display: block;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 70%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .icon-menu-md img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-fixed .item-menu ul li .img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 10px;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 80%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news .item .img-news img {
+    height: 250px;
+  }
+
+  .img-mobile-verify img {
+    width: 60%;
+  }
+
+  .img-increase-inventory img {
+    width: 60%;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+    text-align: center;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: middle;
+  }
+
+  .info-top-profile .item {
+    padding: 10px;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.9em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+    width: 49%;
+    display: inline-block;
+    height: auto;
+  }
+
+  .info-top-profile {
+    width: 32% !important;
+  }
+
+  .user-status {
+    margin-bottom: 15px;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-ticket::before {
+    left: -29px;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 30px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 65px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .col-currency-buy-input {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .last-transaction-wallet {
+    height: 100%;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .img-transfer-convert img {
+    width: 100%;
+  }
+
+  .chart-panel {
+    height: 100% !important;
+  }
+
+  .circle-previw-img {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.8em;
+  }
+
+  .deposit form input#wallet {
+    font-size: 0.65em;
+  }
+
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    font-size: 0.7em;
+  }
+
+  .input-number-withdrawal .withdraw-btn-max {
+    left: 6%;
+  }
+
+  .purple-border {
+    transform: translate(15px, -30px) scale(0.85);
+  }
+
+  .left-whell {
+    padding: 0 30px !important;
+    padding-top: 50px !important;
+  }
+
+  .left-whell h3 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    right: -4%;
+    width: 30px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .mission .item_mission img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .guid_market {
+    height: 100%;
+  }
+
+  .order_market_tab {
+    height: 100% !important;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin: 30px 0;
+  }
+
+  .info_course .col_course_box,
+  .col_wallet_ {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .course_details .info_course .rating {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+  }
+
+  .currency_port .introduction {
+    background-size: 57% 95%;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell form {
+    height: 90%;
+  }
+
+  .currency_sell .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell .form_currency_sell form {
+    height: 90%;
+  }
+
+  .currency_buy .title,
+  .currency_sell .title {
+    height: 10%;
+  }
+
+  .currency_buy .form_currency_buy,
+  .currency_sell .form_currency_sell {
+    height: 90%;
+  }
+
+  .currency_buy.not_PM_PSV .title,
+  .currency_sell.not_PM_PSV .title {
+    height: 10%;
+  }
+
+  .currency_buy.not_PM_PSV .form_currency_buy,
+  .currency_sell.not_PM_PSV .form_currency_sell {
+    height: 90%;
+  }
+
+  .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da !important;
+  }
+
+  .convert-select-coin span,
+  .convert-drop-down .item span {
+    font-size: 0.65em;
+  }
+
+  .convert-select-coin img {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .title_bill .form_search_bill {
+    max-width: 70%;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .bt_wallet_ir {
+    width: 40% !important;
+    height: auto !important;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .box-about-currency ul li {
+    width: 50% !important;
+  }
+
+  .box-about-currency ul li a.nav-link {
+    padding: 12px 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 70%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .icon-menu-md img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-fixed .item-menu ul li .img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .img-contact img {
+    width: 60%;
+  }
+
+  .info-box-contact>div p {
+    font-size: 0.9em;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 10px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 60%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news .item .img-news img {
+    height: 250px;
+  }
+
+  .row-faq-md ul li {
+    width: 23%;
+  }
+
+  .step-progress ul .item-step-progress {
+    margin-left: 65px;
+  }
+
+  .step-progress ul li p {
+    font-size: 1.1em;
+  }
+
+  .img-mobile-verify img {
+    width: 70%;
+  }
+
+  .box-about-currency .btn-about-coin {
+    flex-direction: unset;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-about-currency .btn-about-coin a:first-child {
+    margin-bottom: 0;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+    text-align: center;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: middle;
+  }
+
+  .info-top-profile .item {
+    padding: 10px;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.9em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+    width: 49%;
+    display: inline-block;
+    height: auto;
+  }
+
+  .info-top-profile {
+    width: 32% !important;
+  }
+
+  .user-status {
+    margin-bottom: 15px;
+  }
+
+  .right-ticket .id-ticket span {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right-ticket::before {
+    left: -29px;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .user-ticket,
+  .text-chat-ticket-details .admin-ticket {
+    width: 100%;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .form-error-report .new-ticket {
+    padding: 20px 5px;
+  }
+
+  .coin-data {
+    padding: 0 10px;
+  }
+
+  .chart-js {
+    height: 250px !important;
+  }
+
+  .coin-market .col-lg-2 {
+    border-left: none;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-market .col-lg-2:nth-child(odd) {
+    border-left: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-pice-box {
+    margin-top: 15px;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .nav-tabs-about-currency {
+    margin: 0;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 30px;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 105px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .copy-address-wallet {
+    border-bottom: 1px solid #8db4e4;
+    border-left: none;
+    background-color: #e3f0f9;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-bottom: none;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info>div {
+    margin-top: 10px;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet {
+    text-align: center;
+  }
+
+  .item-currency-wallet-bottom {
+    padding: 7px 10px;
+    display: none;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .last-transaction-wallet {
+    height: 100%;
+  }
+
+  .img-transfer-convert img {
+    width: 45%;
+  }
+
+  .circle-previw-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji {
+    width: 90vw;
+    left: 0;
+  }
+
+  .write-chat-ticket-details span.emoji {
+    position: unset;
+  }
+
+  .write-chat-ticket-details {
+    position: relative;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji .item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .latest-transactions-home {
+    height: auto;
+  }
+
+  .img-deposit img {
+    width: 35%;
+  }
+
+  .purple-border {
+    transform: translate(15px, -30px) scale(0.75);
+  }
+
+  .left-whell {
+    padding: 0 30px !important;
+    padding-top: 50px !important;
+  }
+
+  .left-whell h3 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    width: 30px;
+    right: -6%;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .game-question {
+    padding: 10px 30px;
+    padding-bottom: 70px;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+
+
+
+  .mission .item_mission img {
+    width: 290px;
+    height: 290px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .guid_market {
+    height: 100%;
+  }
+
+  .order_market_tab {
+    height: 100% !important;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin: 30px 0;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 300px;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+    height: 100%;
+  }
+
+  img.notfound_img {
+    width: 100%;
+  }
+
+  .box_rewards img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  .profile_topbar {
+    right: 30px;
+    top: 60px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .profile_topbar p.name_panel {
+    color: #111;
+  }
+
+  .calc_panel {
+    height: auto;
+    overflow-y: unset;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .currency-wallet .body .item-currency-wallet {
+    min-height: 105px;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell.not_PM_PSV .form_currency_sell form {
+    height: 90%;
+  }
+
+  .currency_sell .form_currency_sell>.row {
+    height: 10%;
+  }
+
+  .currency_sell .form_currency_sell form {
+    height: 90%;
+  }
+
+  .transaction_Wallet {
+    height: auto;
+  }
+
+  .transaction_Wallet .top .item_1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .transaction_Wallet .top .wallet_name {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction_Wallet .top .wallet_name h6 {
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .item_1 .img_curency {
+    width: 25px;
+    height: 25px;
+  }
+
+  .create_wallet_walletDirect {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .balance {
+    width: 100%;
+  }
+
+  .transaction_Wallet .top .item_1 .balance h5 input {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .navTabWalletDirect li a {
+    font-size: 0.85em;
+  }
+
+  .currency_buy .title,
+  .currency_sell .title {
+    height: 10%;
+  }
+
+  .currency_buy .form_currency_buy,
+  .currency_sell .form_currency_sell {
+    height: 90%;
+  }
+
+  .currency_buy.not_PM_PSV .title,
+  .currency_sell.not_PM_PSV .title {
+    height: 10%;
+  }
+
+  .currency_buy.not_PM_PSV .form_currency_buy,
+  .currency_sell.not_PM_PSV .form_currency_sell {
+    height: 90%;
+  }
+
+  .deposit .network input#withdrow-PS-PM {
+    border: 1px solid #ced4da;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .user-status p {
+    font-size: 0.9em;
+  }
+
+  .cards-registration .item-card-access .number-card p {
+    font-size: 0.8em;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency ul li {
+    width: 50% !important;
+  }
+
+  .box-about-currency ul li a.nav-link {
+    padding: 12px 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 100%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .icon-menu-md img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news .item .img-news img {
+    height: 250px;
+  }
+
+  .news-details .img img {
+    height: 250px;
+  }
+
+  .row-faq-md ul li {
+    width: 23%;
+    font-size: 0.9em;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  .form-error-report form {
+    padding: 5px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    padding: 20px 5px;
+    margin-top: 15px;
+  }
+
+  .step-progress ul li p::after {
+    display: none;
+  }
+
+  .step-progress ul .item-step-progress .img {
+    display: block;
+  }
+
+  .step-progress ul .item-step-progress {
+    margin-left: 35px;
+  }
+
+  .step-progress ul li p {
+    font-size: 1.1em;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 20px;
+  }
+
+  .phon-verify {
+    padding: 15px;
+  }
+
+  .img-mobile-verify img {
+    width: 70%;
+  }
+
+  .box-currency .buy-sell a {
+    font-size: 0.8em;
+    width: 70px;
+  }
+
+  .box-about-currency .btn-about-coin {
+    flex-direction: unset;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-about-currency .btn-about-coin a:first-child {
+    margin-bottom: 0;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 25px 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+    text-align: right;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: 0;
+  }
+
+  .info-top-profile .item {
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .info-top-profile .item .icon {
+    margin-left: 3px;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+
+  .user-status {
+    margin-bottom: 5px;
+    min-height: 115px;
+    padding: 10px 5px;
+  }
+
+  .user-status {
+    margin-bottom: 15px;
+  }
+
+  .last-list-ticket .item-ticket .left-ticket,
+  .left-ticket .title p,
+  .between-ticket .title p {
+    text-align: center;
+  }
+
+  .right-ticket::before {
+    display: none;
+  }
+
+  .right-ticket .id-ticket span {
+    margin: 10px auto;
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .left-ticket .info-ticket {
+    border: none;
+    border-bottom: 1px dashed rgba(17, 17, 17, 0.4);
+  }
+
+  .between-ticket .status {
+    margin-top: 15px;
+  }
+
+  .right-ticket .id-ticket {
+    margin-top: 0;
+  }
+
+  .info-ticket-details .information .item {
+    font-size: 0.9em;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .user-ticket,
+  .text-chat-ticket-details .admin-ticket {
+    width: 100%;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .text-chat-ticket-details .user-ticket .text,
+  .text-chat-ticket-details .admin-ticket .text {
+    padding: 30px 25px;
+  }
+
+  .login-with-two-step img {
+    width: 50%;
+  }
+
+  .two-step-div #form input {
+    font-size: 15px;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .coin-data {
+    padding: 0 10px;
+  }
+
+  .chart-js {
+    height: 250px !important;
+  }
+
+  .coin-market .col-lg-2 {
+    border-left: none;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-market .col-lg-2:nth-child(odd) {
+    border-left: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-pice-box {
+    margin-top: 15px;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .nav-tabs-about-currency {
+    margin: 0;
+  }
+
+  .request-ceiling-list {
+    padding: 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .copy-address-wallet {
+    border-bottom: 1px solid #8db4e4;
+    border-left: none;
+    background-color: #e3f0f9;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-bottom: none;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet {
+    text-align: center;
+  }
+
+  .item-currency-wallet-bottom {
+    padding: 7px 0px;
+    display: none;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 45%;
+    margin: 5px 2px;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .content-transfer-convert {
+    padding: 35px 15px;
+  }
+
+  .convert-drop-down .item,
+  .convert-select-coin,
+  .convert form .input-number,
+  .transfer form .input-number {
+    font-size: 0.8em;
+  }
+
+  .from-auth .auth-list-upload ul li {
+    display: inline-block;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active,
+  .from-auth .auth-list-upload ul li a {
+    padding: 15px 20px;
+  }
+
+  .from-auth .auth-list-upload ul {
+    margin: 7px 0;
+    text-align: center;
+  }
+
+  .from-auth .upload-img,
+  .from-auth .guid-upload-img {
+    padding: 20px 10px;
+  }
+
+  .from-auth .guid-upload-img {
+    margin-top: 20px !important;
+  }
+
+  .circle-previw-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+    width: 100%;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active {
+    border-right: none;
+    border-bottom: 7px solid #01a14b;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji {
+    width: 85vw;
+    left: 0;
+  }
+
+  .write-chat-ticket-details span.emoji {
+    position: unset;
+  }
+
+  .write-chat-ticket-details {
+    position: relative;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji .item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .latest-transactions-home {
+    height: auto;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.8em;
+  }
+
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    background: #00aec9;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 10px;
+    left: unset;
+    color: #fff;
+  }
+
+  .input-number-withdrawal .withdraw-btn-max {
+    left: 6%;
+  }
+
+  .purple-border {
+    transform: translate(30px, -30px) scale(0.8);
+  }
+
+  .left-whell {
+    padding-left: 0 !important;
+  }
+
+  .left-whell h3 {
+    font-size: 4.8em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    width: 20px;
+  }
+
+  .left-whell .list-text p::before {
+    width: 30px;
+    right: -6%;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .game-question {
+    padding-bottom: 70px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .search_academy form {
+    display: block;
+  }
+
+  .search_academy form input {
+    width: 60%;
+    height: 40px;
+  }
+
+  .search_academy form select {
+    width: 37%;
+    border-left: none;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 0.85em;
+  }
+
+  .search_academy form button {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .box_academy {
+    height: unset;
+  }
+
+  .box_academy p.date {
+    font-size: 0.8em;
+  }
+
+  .airdrop_page {
+    padding: 20px 7px;
+  }
+
+  .airdrop_page .reason_airdrop {
+    top: 70px;
+    left: -15%;
+    font-size: 0.75em;
+  }
+
+  .user_review .rating {
+    border: none;
+  }
+
+  .nav_tabs_airdrop li {
+    width: 50%;
+  }
+
+  .nav_tabs_airdrop li a {
+    font-size: 0.9em;
+    padding: 12px 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .start_gift_question .img img {
+    height: auto !important;
+  }
+
+  .course_details .title_course_details h1 {
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .login_buy_course a {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+  }
+
+  .course_details .title_course_details p {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .teaser {
+    margin-top: 15px;
+  }
+
+  .course_details .title_course_details {
+    padding: 40px 20px;
+  }
+
+  .text_desc_course_tab,
+  .session_course,
+  .comment_course {
+    padding: 40px 15px;
+  }
+
+  .session_course .item_session {
+    flex-direction: column;
+  }
+
+  .session_course .item_session .name_session,
+  .session_course .item_session .time_session {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .course_details .info_course .rating,
+  .comment_course .coments_users .comment .info_comment {
+    flex-wrap: wrap;
+  }
+
+  .modal_view_course .modal-body .other_item_course {
+    max-height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .coments_users .comment .info_comment .btn_like_reply {
+    text-align: left;
+    justify-content: flex-end !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .menu_documentation {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .content_documentation {
+    height: auto;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 350px;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .introduction .about_port .title h3 {
+    font-size: 2em;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+  }
+
+  img.notfound_img {
+    width: 100%;
+  }
+
+  .box_rewards {
+    height: auto !important;
+    margin-top: 80px !important;
+  }
+
+  .box_rewards img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .profile_topbar {
+    right: 30px;
+    top: 60px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .profile_topbar p.name_panel {
+    color: #111;
+  }
+
+  .calc_panel {
+    height: auto;
+    overflow-y: unset;
+  }
+
+  .currency-wallet .body .item-currency-wallet {
+    min-height: auto;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .btn_wallet_transaction {
+    font-size: 0.75em;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .title_bill {
+    margin-top: 30px;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  .list_currency_page_buySell {
+    height: 400px !important;
+  }
+
+  .list_currency_page_buySell form {
+    height: 10%;
+  }
+
+  .table_list_currency {
+    height: 90%;
+  }
+
+  .currency_buy,
+  .currency_sell,
+  .currency_buy .form_currency_buy form,
+  .currency_sell .form_currency_sell form,
+  .form_currency_sell>.row,
+  .form_currency_buy>.row,
+  .form_currency_sell,
+  .form_currency_buy,
+  .currency_buy .title,
+  .currency_sell .title {
+    height: auto;
+  }
+
+  .deposit .network input {
+    border: 1px solid #ced4da;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency ul li {
+    width: 100% !important;
+  }
+
+  .box-about-currency ul li a.nav-link {
+    padding: 12px 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 100%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .img-contact img {
+    width: 100%;
+  }
+
+  .info-box-contact>div p {
+    font-size: 0.9em;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 5px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 20px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 100%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news-details .img img {
+    height: 200px;
+  }
+
+  .row-faq-md ul li {
+    width: 48%;
+  }
+
+  .step-progress ul li p::after {
+    display: none;
+  }
+
+  .step-progress ul .item-step-progress .img {
+    display: block;
+  }
+
+  .step-progress ul .item-step-progress {
+    margin-left: 30px;
+  }
+
+  .step-progress ul li p {
+    font-size: 1.1em;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 15px;
+  }
+
+  .phon-verify {
+    padding: 10px;
+  }
+
+  .text-card-registration {
+    padding: 35px 15px;
+    margin-top: 20px;
+  }
+
+  .list-cards-reject .item .title {
+    display: block;
+  }
+
+  .list-cards-reject .item .title .bank-number {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject .item .title .bank-number span,
+  .list-cards-reject .item .body p span {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .list-cards-reject .item .title p,
+  .list-cards-reject .item .body p {
+    text-align: center;
+  }
+
+  .list-cards-reject .item .status-card {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject {
+    padding: 30px 15px;
+  }
+
+  .img-cards img {
+    width: 100%;
+  }
+
+  .text-box h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #verifyNationalCode button,
+  .form-verify input {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .box-about-currency .btn-about-coin {
+    flex-direction: unset;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-about-currency .btn-about-coin a:first-child {
+    margin-bottom: 0;
+  }
+
+  .img-increase-inventory img {
+    width: 100%;
+  }
+
+  .alert-harvest>div {
+    display: block;
+    text-align: center;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 25px 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+    text-align: right;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: 0;
+  }
+
+  .info-top-profile .item {
+    padding: 12px 15px;
+    display: none;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.9em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-left: 3px;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+
+  .user-status {
+    margin-bottom: 5px;
+    min-height: 100px;
+    padding: 10px 5px;
+  }
+
+  .user-status p {
+    font-size: 0.9em;
+  }
+
+  #toast-container {
+    width: 95% !important;
+    right: 5%;
+  }
+
+  #toast-container>div {
+    width: 100% !important;
+  }
+
+  .last-list-ticket .item-ticket .left-ticket,
+  .left-ticket .title p,
+  .between-ticket .title p {
+    text-align: center;
+  }
+
+  .right-ticket::before {
+    display: none;
+  }
+
+  .right-ticket .id-ticket span {
+    margin: 10px auto;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .left-ticket .info-ticket {
+    border: none;
+    border-bottom: 1px dashed rgba(17, 17, 17, 0.4);
+  }
+
+  .between-ticket .status {
+    margin-top: 15px;
+  }
+
+  .right-ticket .id-ticket {
+    margin-top: 0;
+  }
+
+  .info-ticket-details .information .item {
+    font-size: 0.85em;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .user-ticket,
+  .text-chat-ticket-details .admin-ticket {
+    width: 100%;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .text-chat-ticket-details .user-ticket .text,
+  .text-chat-ticket-details .admin-ticket .text {
+    padding: 30px 25px;
+  }
+
+  .profile-card>div h4 {
+    font-size: 0.9em;
+  }
+
+  .login-with-two-step img {
+    width: 60%;
+  }
+
+  .login-with-two-step {
+    padding: 20px 0px;
+  }
+
+  .two-step-div #form input {
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 15px;
+  }
+
+  .two-step-div #form {
+    margin-top: 20px;
+  }
+
+  .content-login-with-two-step .container-fluid {
+    padding: 0;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .list-ticket .item .title,
+  .list-ticket .item .body .info,
+  .list-ticket .item .body .time-date {
+    display: block;
+    text-align: center;
+  }
+
+  .list-ticket .item .title p,
+  .list-ticket .item .body .info p,
+  .list-ticket .item .body .time-date p,
+  .list-ticket .item .body .time-date p span {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+
+  .request-ceiling .title .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .alert-harvest>div span {
+    background: #11111117;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 0.9em;
+  }
+
+  .form-error-report form {
+    padding: 5px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    padding: 20px 5px;
+    margin-top: 15px;
+  }
+
+  .coin-data {
+    padding: 0 10px;
+  }
+
+  .chart-js {
+    height: 250px !important;
+  }
+
+  .chart-panel {
+    height: 200px !important;
+  }
+
+  .coin-market .col-lg-2 {
+    border-left: none;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-market .col-lg-2:nth-child(odd) {
+    border-left: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-pice-box {
+    margin-top: 15px;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .nav-tabs-about-currency {
+    margin: 0;
+  }
+
+  .request-ceiling-list {
+    padding: 15px;
+  }
+
+  .img-deposit img {
+    width: 100%;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 55px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit,
+  .removable-buy-in-site {
+    padding: 20px 10px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .copy-address-wallet {
+    border-bottom: 1px solid #8db4e4;
+    border-left: none;
+    background-color: #e3f0f9;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 5px 10px;
+    border-bottom: none;
+  }
+
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet {
+    text-align: center;
+  }
+
+  .item-currency-wallet-bottom {
+    padding: 7px 10px;
+    display: none;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .info-transaction .item .wallet-toman .assets h6 {
+    text-align: center;
+  }
+
+  .info-transaction .item .wallet-toman .top {
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .info-transaction .item .wallet-toman .operation {
+    text-align: center;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .info-transaction .item .text {
+    display: block;
+    text-align: center;
+  }
+
+  .info-transaction .item .text p {
+    background: #11111117;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .latest-transactions-home .nav-tabs {
+    justify-content: center;
+  }
+
+  #form-accept-two-step .col-sm-8,
+  #form-accept-two-step .col-sm-4 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .content-transfer-convert .arrow i {
+    transform: rotate(90deg);
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .img-transfer-convert img {
+    width: 80%;
+  }
+
+  .from-auth .auth-list-upload ul li {
+    display: inline-block;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active,
+  .from-auth .auth-list-upload ul li a {
+    font-size: 0.8em;
+    padding: 15px 20px;
+  }
+
+  .from-auth .auth-list-upload ul {
+    margin: 7px 0;
+    text-align: center;
+  }
+
+  .from-auth .upload-img,
+  .from-auth .guid-upload-img {
+    padding: 20px 10px;
+  }
+
+  .from-auth .guid-upload-img {
+    margin-top: 20px !important;
+  }
+
+  .circle-previw-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+    width: 100%;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active {
+    border-right: none;
+    border-bottom: 7px solid #01a14b;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji {
+    width: 80vw;
+    left: 0;
+  }
+
+  .write-chat-ticket-details span.emoji {
+    position: unset;
+  }
+
+  .write-chat-ticket-details {
+    position: relative;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji .item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .latest-transactions-home {
+    height: auto;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.8em;
+  }
+
+  .deposit_currency::after {
+    right: 42px;
+  }
+
+  .input-number-withdrawal .withdraw-btn-max,
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    background: #00aec9;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 10px;
+    left: unset;
+    color: #fff;
+  }
+
+  .purple-border {
+    transform: translate(100px, -50px) scale(0.65);
+  }
+
+  .left-whell {
+    padding-left: 0 !important;
+    margin-top: 50px;
+  }
+
+  .left-whell h3 {
+    font-size: 5.2em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.3em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1.1em;
+  }
+
+  .left-whell .list-text p::before {
+    width: 20px;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .game-question {
+    padding-bottom: 70px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  .transfer-convert .nav-item.show .nav-link,
+  .transfer-convert .nav-link.active,
+  .transfer-convert li a {
+    padding: 5px 0;
+  }
+
+  .transfer-convert li:last-child a,
+  .transfer-convert li:first-child a {
+    clip-path: none;
+  }
+
+  .transfer-convert li:last-child a {
+    margin-right: 0;
+  }
+
+  .transfer-convert li {
+    width: 50%;
+    text-align: center;
+  }
+
+  .content-transfer-convert {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .search_academy form {
+    display: block;
+  }
+
+  .search_academy form input {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    height: 40px;
+  }
+
+  .search_academy form select {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    margin: 10px 0;
+    height: 40px;
+  }
+
+  .search_academy form button {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .box_academy {
+    height: unset;
+  }
+
+  .airdrop_page {
+    padding: 20px 7px;
+  }
+
+  .airdrop_page .description_airdrop {
+    display: block;
+    width: 100%;
+  }
+
+  .airdrop_page .title_airdrop {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .airdrop_page .reason_airdrop {
+    top: 50px;
+    left: -20%;
+    font-size: 0.75em;
+  }
+
+  .airdrop_page .description_airdrop .img {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .airdrop_page .title_airdrop h2 {
+    line-height: 20px;
+  }
+
+  .airdrop_page .info_airdrop ul li {
+    margin: 0 3px;
+  }
+
+  .airdrop_page .info_airdrop ul li img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .airdrop_page .info_airdrop ul li strong {
+    padding: 5px;
+  }
+
+  .form_add_review .attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment label.attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment button,
+  .form_add_review button {
+    padding: 6px 25px;
+  }
+
+  .comment_users .comment_container .comment_reply {
+    padding-right: 0;
+  }
+
+  .comment_users {
+    padding: 30px;
+  }
+
+  .user_review .rating {
+    border: none;
+  }
+
+  .user_review h5 {
+    font-size: 20px;
+  }
+
+  .nav_tabs_airdrop li {
+    width: 50%;
+  }
+
+  .nav_tabs_airdrop li a {
+    font-size: 0.9em;
+    padding: 12px 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .mission .item_mission img {
+    width: 290px;
+    height: 290px;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 0 5px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .arrow_convert {
+    display: none;
+  }
+
+  .start_gift_question .img img {
+    height: auto !important;
+  }
+
+  .course_details .title_course_details h1 {
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin-top: 30px;
+    justify-content: center !important;
+  }
+
+  .course_details .title_course_details .login_buy_course a {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+  }
+
+  .course_details .title_course_details p {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .teaser {
+    margin-top: 15px;
+  }
+
+  .course_details .title_course_details {
+    padding: 40px 20px;
+  }
+
+  .title_course_details .info_title_course {
+    justify-content: center !important;
+  }
+
+  .title_course_details .info_title_course .like {
+    margin-bottom: 15px;
+  }
+
+  .text_desc_course_tab,
+  .session_course,
+  .comment_course {
+    padding: 40px 15px;
+  }
+
+  .session_course .item_session {
+    flex-direction: column;
+  }
+
+  .session_course .item_session .name_session,
+  .session_course .item_session .time_session {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .course_details .info_course .rating,
+  .comment_course .coments_users .comment .info_comment {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+  }
+
+  .modal_view_course .modal-body .other_item_course {
+    max-height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .comment_course .add_new_comment {
+    text-align: center;
+  }
+
+  .comment_course .add_new_comment form {
+    text-align: left;
+  }
+
+  .coments_users .comment .info_comment .btn_like_reply {
+    text-align: left;
+    justify-content: flex-end !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .desc_course_tab ul li a {
+    font-size: 0.8em;
+    padding: 5px;
+  }
+
+  .menu_documentation {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .content_documentation {
+    height: auto;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 200px;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .introduction .about_port .title h3 {
+    font-size: 2em;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+  }
+
+  img.notfound_img {
+    width: 100%;
+  }
+
+  .box_rewards {
+    height: auto !important;
+  }
+
+  .box_rewards img {
+    margin: 0 !important;
+  }
+
+  .profile_topbar {
+    right: 30px;
+    top: 60px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .profile_topbar p.name_panel {
+    color: #111;
+  }
+
+  .calc_panel {
+    height: auto;
+    overflow-y: unset;
+  }
+
+  .currency-wallet .body .item-currency-wallet {
+    min-height: auto;
+  }
+
+  .show-document .item.not_document_img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .menu-fixed .logo img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .btn_wallet_transaction {
+    font-size: 0.75em;
+  }
+
+  .box-info p span {
+    font-size: 13px;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .title_bill {
+    margin-top: 30px;
+  }
+
+  #btn_new_ticket {
+    font-size: 0.75em;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  .user-status img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bt_wallet_ir {
+    width: 40% !important;
+    height: auto !important;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .list_currency_page_buySell {
+    height: 400px !important;
+  }
+
+  .list_currency_page_buySell form {
+    height: 10%;
+  }
+
+  .table_list_currency {
+    height: 90%;
+  }
+
+  .currency_buy,
+  .currency_sell,
+  .currency_buy .form_currency_buy form,
+  .currency_sell .form_currency_sell form,
+  .form_currency_sell>.row,
+  .form_currency_buy>.row,
+  .form_currency_sell,
+  .form_currency_buy,
+  .currency_buy .title,
+  .currency_sell .title {
+    height: auto;
+  }
+
+  #withdrawform #withdrawinput::placeholder {
+    font-size: .7em;
+  }
+
+  .all_balance_harvest {
+    padding: 5px !important;
+    font-size: .7em !important;
+  }
+
+  .transaction_Wallet {
+    height: auto;
+  }
+
+  .transaction_Wallet .top .item_1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .transaction_Wallet .top .wallet_name {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction_Wallet .top .wallet_name h6 {
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .item_1 .img_curency {
+    width: 25px;
+    height: 25px;
+  }
+
+  .create_wallet_walletDirect {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .balance {
+    width: 100%;
+  }
+
+  .transaction_Wallet .top .item_1 .balance h5 input {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .navTabWalletDirect li a {
+    font-size: 0.85em;
+  }
+
+  .deposit .network input {
+    border: 1px solid #ced4da;
+  }
+
+  .withdraw_wallet_btn_Max {
+    left: 0% !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency ul li {
+    width: 100% !important;
+  }
+
+  .box-about-currency ul li a.nav-link {
+    padding: 12px 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 100%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .calc-card {
+    padding: 30px 10px;
+  }
+
+  .btn-clc-coin-card a {
+    width: 45%;
+  }
+
+  .calc-card .coin-1,
+  .btn-support-home a {
+    font-size: 0.85em;
+  }
+
+  .topbar span {
+    font-size: 0.9em;
+  }
+
+  .about-us .title h5 {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+
+  .img-contact img {
+    width: 100%;
+  }
+
+  .info-box-contact>div p {
+    font-size: 0.9em;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 5px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 10px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 100%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news-details .img img {
+    height: 200px;
+  }
+
+  .row-faq-md ul li {
+    width: 48%;
+  }
+
+  .step-progress ul li p::after {
+    display: none;
+  }
+
+  .step-progress ul .item-step-progress .img {
+    display: block;
+  }
+
+  .step-progress ul .item-step-progress {
+    margin-left: 20px;
+  }
+
+  .step-progress ul li p {
+    font-size: 1em;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 15px;
+  }
+
+  .phon-verify {
+    padding: 10px;
+  }
+
+  .cards-registration .item-card-access {
+    padding: 10px;
+  }
+
+  .cards-registration .item-card-access .number-card p {
+    font-size: 0.85em;
+  }
+
+  .text-card-registration {
+    padding: 35px 15px;
+    margin-top: 20px;
+  }
+
+  .list-cards-reject .item .title {
+    display: block;
+  }
+
+  .list-cards-reject .item .title .bank-number {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject .item .title .bank-number span,
+  .list-cards-reject .item .body p span {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .list-cards-reject .item .title p,
+  .list-cards-reject .item .body p {
+    font-size: 0.85em;
+    text-align: center;
+  }
+
+  .list-cards-reject .item .status-card {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject {
+    padding: 30px 5px;
+  }
+
+  .img-cards img {
+    width: 100%;
+  }
+
+  .text-box h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #verifyNationalCode button {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  #verifyNationalCode button,
+  .form-verify input {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .box-currency .buy-sell a {
+    font-size: 0.8em;
+    width: 85px;
+  }
+
+  .box-about-currency .btn-about-coin {
+    flex-direction: unset;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-about-currency .btn-about-coin a:first-child {
+    margin-bottom: 0;
+  }
+
+  .img-increase-inventory img {
+    width: 100%;
+  }
+
+  .alert-harvest>div {
+    display: block;
+    text-align: center;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 25px 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: 0;
+  }
+
+  .info-top-profile .item {
+    padding: 12px 5px;
+    display: none;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.8em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-left: 3px;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+
+  .user-status {
+    margin-bottom: 5px;
+    min-height: 115px;
+    padding: 10px 5px;
+  }
+
+  .user-status p {
+    font-size: 0.8em;
+  }
+
+  .latest-transactions-home li {
+    font-size: 0.85em;
+    margin-left: 10px;
+  }
+
+  #toast-container {
+    width: 90% !important;
+    right: 5%;
+  }
+
+  #toast-container>div {
+    width: 100% !important;
+  }
+
+  .last-list-ticket .item-ticket .left-ticket,
+  .left-ticket .title p,
+  .between-ticket .title p {
+    text-align: center;
+  }
+
+  .right-ticket::before {
+    display: none;
+  }
+
+  .right-ticket .id-ticket span {
+    margin: 10px auto;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .left-ticket .info-ticket {
+    border: none;
+    border-bottom: 1px dashed rgba(17, 17, 17, 0.4);
+  }
+
+  .between-ticket .status {
+    margin-top: 15px;
+  }
+
+  .right-ticket .id-ticket {
+    margin-top: 0;
+  }
+
+  .info-ticket-details .information .item {
+    font-size: 0.8em;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .user-ticket,
+  .text-chat-ticket-details .admin-ticket {
+    width: 100%;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .text-chat-ticket-details .user-ticket .text,
+  .text-chat-ticket-details .admin-ticket .text {
+    padding: 30px 25px;
+  }
+
+  .profile-card>div h4 {
+    font-size: 0.9em;
+  }
+
+  .login-with-two-step img {
+    width: 80%;
+  }
+
+  .login-with-two-step {
+    padding: 20px 0px;
+  }
+
+  .two-step-div #form input {
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 13px;
+  }
+
+  .two-step-div #form {
+    margin-top: 20px;
+  }
+
+  .content-login-with-two-step .container-fluid {
+    padding: 0;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .list-ticket .item .title,
+  .list-ticket .item .body .info,
+  .list-ticket .item .body .time-date {
+    display: block;
+    text-align: center;
+  }
+
+  .list-ticket .item .title p,
+  .list-ticket .item .body .info p,
+  .list-ticket .item .body .time-date p,
+  .list-ticket .item .body .time-date p span {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+
+  .request-ceiling .title .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .alert-harvest>div span {
+    background: #11111117;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 0.9em;
+  }
+
+  .img-error-report img {
+    width: 100%;
+  }
+
+  .form-error-report form {
+    padding: 5px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    padding: 20px 5px;
+    margin-top: 15px;
+  }
+
+  .coin-data {
+    padding: 0 10px;
+  }
+
+  .chart-js {
+    height: 250px !important;
+  }
+
+  .chart-panel {
+    height: 200px !important;
+  }
+
+  .coin-market .col-lg-2 {
+    border-left: none;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-market .col-lg-2:nth-child(odd) {
+    border-left: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-pice-box {
+    margin-top: 15px;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .nav-tabs-about-currency {
+    margin: 0;
+  }
+
+  .request-ceiling-list {
+    padding: 15px;
+  }
+
+  .img-deposit img {
+    width: 100%;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 55px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit,
+  .removable-buy-in-site {
+    padding: 20px 10px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .copy-address-wallet {
+    border-bottom: 1px solid #8db4e4;
+    border-left: none;
+    background-color: #e3f0f9;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 5px 10px;
+    border-bottom: none;
+  }
+
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet {
+    text-align: center;
+  }
+
+  .item-currency-wallet-bottom {
+    padding: 7px 10px;
+    display: none;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .info-transaction .item .wallet-toman .assets h6 {
+    text-align: center;
+  }
+
+  .info-transaction .item .wallet-toman .top {
+    margin-bottom: 15px;
+  }
+
+  .info-transaction .item .wallet-toman .operation {
+    text-align: center;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .info-transaction .item .text {
+    display: block;
+    text-align: center;
+  }
+
+  .info-transaction .item .text p {
+    background: #11111117;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .latest-transactions-home .nav-tabs {
+    justify-content: center;
+  }
+
+  #form-accept-two-step .col-sm-8,
+  #form-accept-two-step .col-sm-4 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .nav-tabs-profile li a {
+    font-size: 0.8em;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .card-about-currency {
+    padding: 1.875rem 10px;
+  }
+
+  .img-transfer-convert img {
+    width: 100%;
+  }
+
+  .content-transfer-convert .btn-max,
+  .input-number-withdrawal .withdraw-btn-max,
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    background: #00aec9;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 10px;
+    left: unset;
+    color: #fff;
+  }
+
+  .content-transfer-convert .arrow i {
+    transform: rotate(90deg);
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .from-auth .auth-list-upload ul li {
+    display: inline-block;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active,
+  .from-auth .auth-list-upload ul li a {
+    font-size: 0.8em;
+    padding: 10px 20px;
+  }
+
+  .from-auth .auth-list-upload ul {
+    margin: 7px 0;
+    text-align: center;
+  }
+
+  .from-auth .upload-img,
+  .from-auth .guid-upload-img {
+    padding: 20px 10px;
+  }
+
+  .from-auth .guid-upload-img {
+    margin-top: 20px !important;
+  }
+
+  .circle-previw-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+    width: 100%;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active {
+    border-right: none;
+    border-bottom: 7px solid #01a14b;
+  }
+
+  .from-auth .operation-img lottie-player {
+    width: 200px !important;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji {
+    width: 80vw;
+    left: 0;
+  }
+
+  .write-chat-ticket-details span.emoji {
+    position: unset;
+  }
+
+  .write-chat-ticket-details {
+    position: relative;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji .item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .latest-transactions-home {
+    height: auto;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.65em;
+  }
+
+  .deposit_currency::after {
+    right: 42px;
+  }
+
+  .deposit form input#wallet {
+    font-size: 0.7em;
+  }
+
+  .purple-border {
+    transform: translate(125px, -50px) scale(0.6);
+  }
+
+  .left-whell {
+    padding-left: 0 !important;
+    margin-top: 50px;
+  }
+
+  .left-whell h3 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    width: 20px;
+    right: -10%;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .game-question {
+    padding-bottom: 70px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed {
+    padding-left: 30px;
+  }
+
+  .transfer-convert .nav-item.show .nav-link,
+  .transfer-convert .nav-link.active,
+  .transfer-convert li a {
+    padding: 5px 0;
+  }
+
+  .transfer-convert li:last-child a,
+  .transfer-convert li:first-child a {
+    clip-path: none;
+  }
+
+  .transfer-convert li:last-child a {
+    margin-right: 0;
+  }
+
+  .transfer-convert li {
+    width: 50%;
+    text-align: center;
+  }
+
+  .content-transfer-convert {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .search_academy form {
+    display: block;
+  }
+
+  .search_academy form input {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    height: 40px;
+  }
+
+  .search_academy form select {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 0.85em;
+  }
+
+  .search_academy form button {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .box_academy {
+    height: unset;
+  }
+
+  .box_academy p.date {
+    font-size: 0.8em;
+  }
+
+  .airdrop_page {
+    padding: 20px 7px;
+  }
+
+  .airdrop_page .description_airdrop {
+    display: block;
+    width: 100%;
+  }
+
+  .airdrop_page .title_airdrop {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .airdrop_page .reason_airdrop {
+    top: 45px;
+    left: -35%;
+    font-size: 0.75em;
+  }
+
+  .airdrop_page .description_airdrop .img {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .airdrop_page .title_airdrop h2 {
+    line-height: 20px;
+  }
+
+  .airdrop_page .info_airdrop ul li {
+    margin: 0 3px;
+  }
+
+  .airdrop_page .info_airdrop ul li img {
+    display: none;
+  }
+
+  .airdrop_page .info_airdrop ul li strong {
+    padding: 5px;
+  }
+
+  .row_top_review::before {
+    display: none;
+  }
+
+  .user_review .btn_add_review {
+    text-align: center;
+  }
+
+  .user_review .rating {
+    padding: 0;
+    border: none;
+  }
+
+  .comment_users {
+    padding: 30px 20px;
+  }
+
+  .form_add_review {
+    padding: 25px 15px;
+  }
+
+  .your_rating label {
+    font-size: 0.9em;
+  }
+
+  .your_rating>div {
+    padding: 10px;
+  }
+
+  .form_add_review .attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment label.attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment button,
+  .form_add_review button {
+    padding: 6px 25px;
+  }
+
+  .comment_users .comment_container .comment_reply {
+    padding-right: 0;
+  }
+
+  .user_review .add_review {
+    padding: 12px 20px;
+  }
+
+  .user_review h5 {
+    font-size: 20px;
+  }
+
+  .nav_tabs_airdrop li {
+    width: 50%;
+  }
+
+  .nav_tabs_airdrop li a {
+    font-size: 0.9em;
+    padding: 12px 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .mission .item_mission img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .arrow_convert {
+    display: none;
+  }
+
+  .start_gift_question .img img {
+    height: auto !important;
+  }
+
+  .start_gift_question .guid_start .guid a {
+    width: 100%;
+  }
+
+  .course_details .title_course_details h1 {
+    font-size: 1.1em;
+    line-height: 30px;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin-top: 30px;
+    justify-content: center !important;
+  }
+
+  .course_details .title_course_details .login_buy_course a {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+  }
+
+  .course_details .title_course_details p {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .teaser {
+    margin-top: 15px;
+  }
+
+  .course_details .title_course_details {
+    padding: 40px 20px;
+  }
+
+  .title_course_details .info_title_course {
+    justify-content: center !important;
+  }
+
+  .title_course_details .info_title_course .like {
+    margin-bottom: 15px;
+  }
+
+  .text_desc_course_tab,
+  .session_course,
+  .comment_course {
+    padding: 40px 15px;
+  }
+
+  .session_course .item_session {
+    flex-direction: column;
+  }
+
+  .session_course .item_session .name_session,
+  .session_course .item_session .time_session {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .course_details .info_course .rating,
+  .comment_course .coments_users .comment .info_comment {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+  }
+
+  .modal_view_course .modal-body .other_item_course {
+    max-height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .comment_course .add_new_comment {
+    text-align: center;
+  }
+
+  .comment_course .add_new_comment form {
+    text-align: left;
+  }
+
+  .coments_users .comment .info_comment .btn_like_reply {
+    text-align: left;
+    justify-content: flex-end !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .desc_course_tab ul li a {
+    font-size: 0.8em;
+    padding: 3px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+    display: inline-block;
+  }
+
+  .menu_documentation {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .content_documentation {
+    height: auto;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 200px;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .introduction .about_port .title h3 {
+    font-size: 2em;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+  }
+
+  img.notfound_img {
+    width: 100%;
+  }
+
+  .box_rewards {
+    height: auto !important;
+  }
+
+  .box_rewards img {
+    margin: 0 !important;
+  }
+
+  .profile_topbar {
+    right: 30px;
+    top: 60px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .profile_topbar p.name_panel {
+    color: #111;
+  }
+
+  .calc_panel {
+    height: auto;
+    overflow-y: unset;
+  }
+
+  .currency-wallet .body .item-currency-wallet {
+    min-height: auto;
+  }
+
+  .show-document .item.not_document_img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .menu-fixed .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn_wallet_transaction {
+    font-size: 0.75em;
+  }
+
+  .box-info p span {
+    font-size: 13px;
+  }
+
+  .info-calc-home p {
+    font-size: 0.75em;
+  }
+
+  .info-calc-home .show-price h6 {
+    font-size: 0.8em;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .title_bill {
+    margin-top: 30px;
+  }
+
+  #btn_new_ticket {
+    font-size: 0.75em;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  .user-status img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bt_wallet_ir {
+    width: 40% !important;
+    height: auto !important;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .col_search_voucher label {
+    font-size: 0.7em;
+  }
+
+  .list_currency_page_buySell {
+    height: 400px !important;
+  }
+
+  .list_currency_page_buySell form {
+    height: 10%;
+  }
+
+  .table_list_currency {
+    height: 90%;
+  }
+
+  .currency_buy,
+  .currency_sell,
+  .currency_buy .form_currency_buy form,
+  .currency_sell .form_currency_sell form,
+  .form_currency_sell>.row,
+  .form_currency_buy>.row,
+  .form_currency_sell,
+  .form_currency_buy,
+  .currency_buy .title,
+  .currency_sell .title {
+    height: auto;
+  }
+
+  #withdrawform #withdrawinput::placeholder {
+    font-size: .7em;
+  }
+
+  .all_balance_harvest {
+    padding: 5px !important;
+    font-size: .7em !important;
+  }
+
+  .transaction_Wallet {
+    height: auto;
+  }
+
+  .transaction_Wallet .top .item_1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .transaction_Wallet .top .wallet_name {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction_Wallet .top .wallet_name h6 {
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .item_1 .img_curency {
+    width: 25px;
+    height: 25px;
+  }
+
+  .create_wallet_walletDirect {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .balance {
+    width: 100%;
+  }
+
+  .transaction_Wallet .top .item_1 .balance h5 input {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .navTabWalletDirect li a {
+    font-size: 0.85em;
+  }
+
+  .deposit .network input {
+    border: 1px solid #ced4da;
+  }
+
+  .withdraw_wallet_btn_Max {
+    left: 0% !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+  .menu-fixed {
+    width: 100%;
+    z-index: 100;
+    background: #fff;
+    right: -100%;
+    transition: all 0.3s ease-in;
+    border: none;
+    top: 0 !important;
+    height: 100vh;
+  }
+
+  .col-menu {
+    padding: 0;
+  }
+
+  .box-about-currency ul li {
+    width: 100% !important;
+  }
+
+  .box-about-currency ul li a.nav-link {
+    padding: 12px 0;
+  }
+
+  .box-about-currency div.buy,
+  .box-about-currency div.sell {
+    padding: 10px 5px;
+  }
+
+  .box-about-currency .btn-about-coin a {
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 20px;
+  }
+
+  .img-about-us img {
+    width: 100%;
+  }
+
+  .row-box-about {
+    margin-top: 10px;
+  }
+
+  .logo-home-front .swing img {
+    width: 190px;
+    height: 115px;
+  }
+
+  .calc-card {
+    padding: 30px 10px;
+  }
+
+  .btn-clc-coin-card a {
+    width: 45%;
+  }
+
+  .calc-card .coin-1,
+  .btn-support-home a {
+    font-size: 0.85em;
+  }
+
+  .topbar span {
+    font-size: 0.9em;
+  }
+
+  .about-us .title h5 {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+
+  .img-contact img {
+    width: 100%;
+  }
+
+  .info-box-contact>div p {
+    font-size: 0.9em;
+  }
+
+  .social-media-contact ul li {
+    margin: 0 5px;
+  }
+
+  .form-contact {
+    margin-top: 25px;
+    padding: 35px 10px;
+  }
+
+  .form-contact button {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed:before,
+  #accordion .panel-title a:before {
+    left: 2px;
+  }
+
+  #accordion .panel-title a.collapsed::after,
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
+  #accordion .panel-title a.collapsed p,
+  #accordion .panel-title a p {
+    width: 85%;
+  }
+
+  .img-faq img {
+    width: 100%;
+  }
+
+  .news .time-news span,
+  .latest-news .time-latest-news span {
+    margin-top: 20px;
+  }
+
+  .latest-news {
+    border-right: none;
+  }
+
+  .latest-news .title::before {
+    width: 60%;
+  }
+
+  .news-details .img img {
+    height: 200px;
+  }
+
+  .row-faq-md ul li {
+    width: 48%;
+  }
+
+  .step-progress ul li p::after {
+    display: none;
+  }
+
+  .step-progress ul .item-step-progress .img {
+    display: block;
+  }
+
+  .step-progress ul .item-step-progress {
+    margin-left: 20px;
+  }
+
+  .step-progress ul li p {
+    font-size: 1em;
+  }
+
+  .mobile-confirmation {
+    padding: 35px 15px;
+  }
+
+  .phon-verify {
+    padding: 10px;
+  }
+
+  .cards-registration .item-card-access {
+    padding: 10px;
+  }
+
+  .cards-registration .item-card-access .number-card p {
+    font-size: 0.85em;
+  }
+
+  .text-card-registration {
+    padding: 35px 15px;
+    margin-top: 20px;
+  }
+
+  .list-cards-reject .item .title {
+    display: block;
+  }
+
+  .list-cards-reject .item .title .bank-number {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject .item .title .bank-number span,
+  .list-cards-reject .item .body p span {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .list-cards-reject .item .title p,
+  .list-cards-reject .item .body p {
+    font-size: 0.85em;
+    text-align: center;
+  }
+
+  .list-cards-reject .item .status-card {
+    margin-top: 15px;
+  }
+
+  .list-cards-reject {
+    padding: 30px 5px;
+  }
+
+  .img-cards img {
+    width: 100%;
+  }
+
+  .text-box h4 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  #verifyNationalCode button {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  #verifyNationalCode button,
+  .form-verify input {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .box-currency .buy-sell a {
+    font-size: 0.8em;
+    width: 85px;
+  }
+
+  .box-about-currency .btn-about-coin {
+    flex-direction: unset;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-about-currency .btn-about-coin a:first-child {
+    margin-bottom: 0;
+  }
+
+  .img-increase-inventory img {
+    width: 100%;
+  }
+
+  .alert-harvest>div {
+    display: block;
+    text-align: center;
+  }
+
+  .top-profile .img-profile {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .top-profile {
+    padding: 25px 15px;
+  }
+
+  .top-profile ul li {
+    margin: 10px 0;
+    width: 100%;
+    vertical-align: 0;
+  }
+
+  .top-profile ul li.profile-img-edit {
+    vertical-align: 0;
+  }
+
+  .info-top-profile .item {
+    padding: 12px 5px;
+    display: none;
+  }
+
+  .info-top-profile .item span {
+    font-size: 0.8em;
+  }
+
+  .info-top-profile .item .icon {
+    margin-left: 3px;
+  }
+
+  .info-top-profile .item .icon i {
+    padding: 10px;
+  }
+
+  .form-complete-profile {
+    padding: 40px 20px;
+  }
+
+  .refrall-profile,
+  .authentication-profile {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+
+  .user-status {
+    margin-bottom: 5px;
+    min-height: 115px;
+    padding: 10px 5px;
+  }
+
+  .user-status p {
+    font-size: 0.8em;
+  }
+
+  .latest-transactions-home li {
+    font-size: 0.85em;
+    margin-left: 10px;
+  }
+
+  #toast-container {
+    width: 90% !important;
+    right: 5%;
+  }
+
+  #toast-container>div {
+    width: 100% !important;
+  }
+
+  .last-list-ticket .item-ticket .left-ticket,
+  .left-ticket .title p,
+  .between-ticket .title p {
+    text-align: center;
+  }
+
+  .right-ticket::before {
+    display: none;
+  }
+
+  .right-ticket .id-ticket span {
+    margin: 10px auto;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .left-ticket .info-ticket {
+    border: none;
+    border-bottom: 1px dashed rgba(17, 17, 17, 0.4);
+  }
+
+  .between-ticket .status {
+    margin-top: 15px;
+  }
+
+  .right-ticket .id-ticket {
+    margin-top: 0;
+  }
+
+  .info-ticket-details .information .item {
+    font-size: 0.8em;
+  }
+
+  .text-chat-ticket-details {
+    margin-top: 20px;
+    padding: 20px 10px;
+  }
+
+  .text-chat-ticket-details .date p {
+    padding: 2px 0px;
+  }
+
+  .text-chat-ticket-details .user-ticket,
+  .text-chat-ticket-details .admin-ticket {
+    width: 100%;
+  }
+
+  .text-chat-ticket-details .time p,
+  .text-chat-ticket-details .admin-ticket .time {
+    text-align: center;
+  }
+
+  .text-chat-ticket-details .user-ticket .text,
+  .text-chat-ticket-details .admin-ticket .text {
+    padding: 30px 25px;
+  }
+
+  .profile-card>div h4 {
+    font-size: 0.9em;
+  }
+
+  .login-with-two-step img {
+    width: 80%;
+  }
+
+  .login-with-two-step {
+    padding: 20px 0px;
+  }
+
+  .two-step-div #form input {
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 13px;
+  }
+
+  .two-step-div #form {
+    margin-top: 20px;
+  }
+
+  .content-login-with-two-step .container-fluid {
+    padding: 0;
+  }
+
+  .img-two-step-login {
+    margin-bottom: 20px;
+  }
+
+  .accept-two-step-login .img-barcode {
+    margin-top: 20px;
+  }
+
+  #form-accept-two-step input {
+    margin-bottom: 10px;
+  }
+
+  .list-ticket .item .title,
+  .list-ticket .item .body .info,
+  .list-ticket .item .body .time-date {
+    display: block;
+    text-align: center;
+  }
+
+  .list-ticket .item .title p,
+  .list-ticket .item .body .info p,
+  .list-ticket .item .body .time-date p,
+  .list-ticket .item .body .time-date p span {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+
+  .request-ceiling .title .icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .alert-harvest>div span {
+    background: #11111117;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    font-size: 0.9em;
+  }
+
+  .img-error-report img {
+    width: 100%;
+  }
+
+  .form-error-report form {
+    padding: 5px;
+  }
+
+  .form-contact p {
+    font-size: 0.75em;
+  }
+
+  .form-error-report .new-ticket a {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .form-error-report .new-ticket span {
+    display: block;
+    line-height: 20px;
+    padding: 8px 5px;
+    font-size: 0.8em;
+    border-radius: 10px;
+  }
+
+  .form-error-report .new-ticket {
+    padding: 20px 5px;
+    margin-top: 15px;
+  }
+
+  .coin-data {
+    padding: 0 10px;
+  }
+
+  .chart-js {
+    height: 250px !important;
+  }
+
+  .chart-panel {
+    height: 200px !important;
+  }
+
+  .coin-market .col-lg-2 {
+    border-left: none;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-market .col-lg-2:nth-child(odd) {
+    border-left: 1px solid rgba(17, 17, 17, 0.164);
+  }
+
+  .coin-pice-box {
+    margin-top: 15px;
+  }
+
+  .coin-market p {
+    font-size: 0.8em;
+  }
+
+  .coin-pice-box a {
+    width: 48%;
+  }
+
+  .nav-tabs-about-currency {
+    margin: 0;
+  }
+
+  .request-ceiling-list {
+    padding: 15px;
+  }
+
+  .img-deposit img {
+    width: 100%;
+  }
+
+  .deposit>div,
+  .removable-buy-in-site>div {
+    padding: 50px 15px;
+  }
+
+  .price-usd-ir {
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+
+  .deposit .network,
+  .removable-buy-in-site .buy-in-site {
+    background-color: transparent;
+    border: none;
+  }
+
+  .deposit::after,
+  .removable-buy-in-site:after {
+    right: 55px;
+  }
+
+  .input-sell-in-site,
+  .input-buy-in-site {
+    padding: 0;
+  }
+
+  .deposit .network input,
+  .removable-buy-in-site .buy-in-site input {
+    padding: 5px 10px;
+    height: 50px;
+  }
+
+  .info-deposit>div,
+  .info-buy-in-site>div {
+    padding-right: 0;
+  }
+
+  .info-deposit p,
+  .info-buy-in-site p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .deposit,
+  .removable-buy-in-site {
+    padding: 20px 10px;
+  }
+
+  .deposit form button,
+  .removable-buy-in-site form button {
+    padding: 8px 15px;
+    width: 100%;
+  }
+
+  .img-coin-deposit {
+    right: 40%;
+  }
+
+  .info-deposit .balance,
+  .info-buy-in-site .balance {
+    display: block;
+  }
+
+  .info-deposit .balance h6,
+  .info-buy-in-site .balance h6 {
+    margin-top: 15px;
+  }
+
+  .removable-sell-in-site:after {
+    height: 70%;
+  }
+
+  .item-currency-wallet-bottom .copy-address-wallet {
+    border-bottom: 1px solid #8db4e4;
+    border-left: none;
+    background-color: #e3f0f9;
+  }
+
+  .currency-wallet .body .item-currency-wallet .info {
+    padding: 5px 10px;
+    border-bottom: none;
+  }
+
+
+  .currency-wallet .body .item-currency-wallet .info>div p {
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9em;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet {
+    text-align: center;
+  }
+
+  .item-currency-wallet-bottom {
+    padding: 7px 10px;
+    display: none;
+  }
+
+  .item-currency-wallet-bottom .btns-wallet a {
+    width: 43%;
+  }
+
+  .info-transaction .item .wallet-toman .assets h6 {
+    text-align: center;
+  }
+
+  .info-transaction .item .wallet-toman .top {
+    margin-bottom: 15px;
+  }
+
+  .info-transaction .item .wallet-toman .operation {
+    text-align: center;
+  }
+
+  .item-lasttransaction-wallet .assets-list {
+    height: auto;
+  }
+
+  .info-transaction .item .text {
+    display: block;
+    text-align: center;
+  }
+
+  .info-transaction .item .text p {
+    background: #11111117;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .latest-transactions-home .nav-tabs {
+    justify-content: center;
+  }
+
+  #form-accept-two-step .col-sm-8,
+  #form-accept-two-step .col-sm-4 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nav-tabs-profile li {
+    width: 45%;
+    display: inline-block;
+    margin: 0 3px;
+  }
+
+  .nav-tabs-profile li i:not(.icon) {
+    transform: rotate(-90deg);
+    margin-right: 5px;
+  }
+
+  .nav-tabs-profile li a {
+    font-size: 0.8em;
+  }
+
+  .nav-tabs-profile {
+    justify-content: center;
+  }
+
+  .card-about-currency {
+    padding: 1.875rem 10px;
+  }
+
+  .img-transfer-convert img {
+    width: 100%;
+  }
+
+  .content-transfer-convert .btn-max,
+  .input-number-withdrawal .withdraw-btn-max,
+  .handly-withdraw-btn-max,
+  .kucoin-withdraw-btn-max,
+  .save_wallet {
+    background: #00aec9;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 7px 5px;
+    margin-top: 10px;
+    left: unset;
+    color: #fff;
+  }
+
+  .content-transfer-convert .arrow i {
+    transform: rotate(90deg);
+  }
+
+  .content-transfer-convert .arrow {
+    margin: 10px 0;
+  }
+
+  .from-auth .auth-list-upload ul li {
+    display: inline-block;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active,
+  .from-auth .auth-list-upload ul li a {
+    font-size: 0.8em;
+    padding: 10px 20px;
+  }
+
+  .from-auth .auth-list-upload ul {
+    margin: 7px 0;
+    text-align: center;
+  }
+
+  .from-auth .upload-img,
+  .from-auth .guid-upload-img {
+    padding: 20px 10px;
+  }
+
+  .from-auth .guid-upload-img {
+    margin-top: 20px !important;
+  }
+
+  .circle-previw-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  label.upload-image-auth {
+    padding: 10px 40px;
+    width: 100%;
+  }
+
+  .from-auth .input-file-upload>div {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .from-auth .auth-list-upload .nav-tabs .nav-item.show .nav-link,
+  .from-auth .auth-list-upload .nav-tabs .nav-link.active {
+    border-right: none;
+    border-bottom: 7px solid #01a14b;
+  }
+
+  .from-auth .operation-img lottie-player {
+    width: 200px !important;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji {
+    width: 80vw;
+    left: 0;
+  }
+
+  .write-chat-ticket-details span.emoji {
+    position: unset;
+  }
+
+  .write-chat-ticket-details {
+    position: relative;
+  }
+
+  .write-chat-ticket-details span.emoji .box-emoji .item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .info-invoice .invoice-item {
+    flex-direction: row;
+  }
+
+  .info-invoice {
+    margin-bottom: 10px;
+  }
+
+  .info-invoice .invoice-item {
+    justify-content: start !important;
+  }
+
+  .info-invoice .invoice-item span {
+    width: auto;
+  }
+
+  .info-invoice .invoice-item p {
+    display: inline-block;
+  }
+
+  .table-referral {
+    overflow-x: auto;
+  }
+
+  .latest-transactions-home {
+    height: auto;
+  }
+
+  .deposit .network select,
+  .removable-buy-in-site .buy-in-site select {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .barcode-withdrawal {
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .info-deposit .balance p.address-wallet {
+    font-size: 0.65em;
+  }
+
+  .deposit_currency::after {
+    right: 42px;
+  }
+
+  .deposit form input#wallet {
+    font-size: 0.7em;
+  }
+
+  .purple-border {
+    transform: translate(125px, -50px) scale(0.6);
+  }
+
+  .left-whell {
+    padding-left: 0 !important;
+    margin-top: 50px;
+  }
+
+  .left-whell h3 {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .left-whell h3 span {
+    font-size: 1.2em;
+  }
+
+  .left-whell .list-text {
+    padding: 15px;
+  }
+
+  .left-whell .list-text p {
+    font-size: 1em;
+  }
+
+  .left-whell .list-text p::before {
+    width: 20px;
+    right: -10%;
+  }
+
+  .guid-game {
+    height: auto;
+    min-height: auto;
+  }
+
+  .game-question {
+    padding-bottom: 70px;
+  }
+
+  .latest-transactions-home table td .amount {
+    width: 100%;
+  }
+
+  #accordion .panel-title a.collapsed {
+    padding-left: 30px;
+  }
+
+  .transfer-convert .nav-item.show .nav-link,
+  .transfer-convert .nav-link.active,
+  .transfer-convert li a {
+    padding: 5px 0;
+  }
+
+  .transfer-convert li:last-child a,
+  .transfer-convert li:first-child a {
+    clip-path: none;
+  }
+
+  .transfer-convert li:last-child a {
+    margin-right: 0;
+  }
+
+  .transfer-convert li {
+    width: 50%;
+    text-align: center;
+  }
+
+  .content-transfer-convert {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .modal_card_registration_bode,
+  .background_card_registration {
+    height: auto;
+  }
+
+  .search_academy form {
+    display: block;
+  }
+
+  .search_academy form input {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    height: 40px;
+  }
+
+  .search_academy form select {
+    width: 100%;
+    border-left: none;
+    border-bottom: 1px solid #11111130;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 0.85em;
+  }
+
+  .search_academy form button {
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .box_academy {
+    height: unset;
+  }
+
+  .box_academy p.date {
+    font-size: 0.8em;
+  }
+
+  .airdrop_page {
+    padding: 20px 7px;
+  }
+
+  .airdrop_page .description_airdrop {
+    display: block;
+    width: 100%;
+  }
+
+  .airdrop_page .title_airdrop {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .airdrop_page .reason_airdrop {
+    top: 45px;
+    left: -35%;
+    font-size: 0.75em;
+  }
+
+  .airdrop_page .description_airdrop .img {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .airdrop_page .title_airdrop h2 {
+    line-height: 20px;
+  }
+
+  .airdrop_page .info_airdrop ul li {
+    margin: 0 3px;
+  }
+
+  .airdrop_page .info_airdrop ul li img {
+    display: none;
+  }
+
+  .airdrop_page .info_airdrop ul li strong {
+    padding: 5px;
+  }
+
+  .row_top_review::before {
+    display: none;
+  }
+
+  .user_review .btn_add_review {
+    text-align: center;
+  }
+
+  .user_review .rating {
+    padding: 0;
+    border: none;
+  }
+
+  .comment_users {
+    padding: 30px 20px;
+  }
+
+  .form_add_review {
+    padding: 25px 15px;
+  }
+
+  .your_rating label {
+    font-size: 0.9em;
+  }
+
+  .your_rating>div {
+    padding: 10px;
+  }
+
+  .form_add_review .attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment label.attach_file,
+  .comment_users .comment_container .comment_reply .form_reply_comment button,
+  .form_add_review button {
+    padding: 6px 25px;
+  }
+
+  .comment_users .comment_container .comment_reply {
+    padding-right: 0;
+  }
+
+  .user_review .add_review {
+    padding: 12px 20px;
+  }
+
+  .user_review h5 {
+    font-size: 20px;
+  }
+
+  .nav_tabs_airdrop li {
+    width: 50%;
+  }
+
+  .nav_tabs_airdrop li a {
+    font-size: 0.9em;
+    padding: 12px 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .away_consulation {
+    border-radius: 0;
+    padding: 15px;
+  }
+
+  .away_consulation h2,
+  .away_consulation p {
+    text-align: center;
+  }
+
+  .right_away_consulation {
+    display: block;
+  }
+
+  .away_consulation .list_away_consulation span {
+    word-break: break-all;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.85em;
+  }
+
+  .form_consulation {
+    width: 100%;
+  }
+
+  .form_consulation h5 {
+    font-size: 1.8em;
+  }
+
+  .form_consulation .box_radio {
+    margin-bottom: 7px;
+  }
+
+  .form_consulation button {
+    width: 100%;
+  }
+
+  .mission .item_mission img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .order_market .nav-link {
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .list_info_market {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .arrow_convert {
+    display: none;
+  }
+
+  .start_gift_question .img img {
+    height: auto !important;
+  }
+
+  .start_gift_question .guid_start .guid a {
+    width: 100%;
+  }
+
+  .course_details .title_course_details h1 {
+    font-size: 1.1em;
+    line-height: 30px;
+  }
+
+  .course_details .title_course_details .buy_course {
+    margin-top: 30px;
+    justify-content: center !important;
+  }
+
+  .course_details .title_course_details .login_buy_course a {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+  }
+
+  .course_details .title_course_details p {
+    margin-top: 30px;
+  }
+
+  .course_details .title_course_details .teaser {
+    margin-top: 15px;
+  }
+
+  .course_details .title_course_details {
+    padding: 40px 20px;
+  }
+
+  .title_course_details .info_title_course {
+    justify-content: center !important;
+  }
+
+  .title_course_details .info_title_course .like {
+    margin-bottom: 15px;
+  }
+
+  .text_desc_course_tab,
+  .session_course,
+  .comment_course {
+    padding: 40px 15px;
+  }
+
+  .session_course .item_session {
+    flex-direction: column;
+  }
+
+  .session_course .item_session .name_session,
+  .session_course .item_session .time_session {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .course_details .info_course .rating,
+  .comment_course .coments_users .comment .info_comment {
+    flex-wrap: wrap;
+  }
+
+  .course_details .info_course .rating .star_rate {
+    margin-bottom: 15px;
+  }
+
+  .modal_view_course .modal-body .other_item_course {
+    max-height: 250px;
+    margin-bottom: 15px;
+  }
+
+  .comment_course .add_new_comment {
+    text-align: center;
+  }
+
+  .comment_course .add_new_comment form {
+    text-align: left;
+  }
+
+  .coments_users .comment .info_comment .btn_like_reply {
+    text-align: left;
+    justify-content: flex-end !important;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  .desc_course_tab ul li a {
+    font-size: 0.8em;
+    padding: 3px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
+    display: inline-block;
+  }
+
+  .menu_documentation {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+
+  .content_documentation {
+    height: auto;
+  }
+
+  .currency_port .introduction {
+    background-image: none !important;
+    background-color: #e3f0f9;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px;
+    border-radius: 50px;
+  }
+
+  .currency_port .introduction .baner_port img {
+    border-radius: 25px;
+    max-height: 200px;
+  }
+
+  .currency_port .introduction .about_port {
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+    min-height: unset;
+  }
+
+  .currency_port .introduction .about_port .title h3 {
+    font-size: 2em;
+  }
+
+  .currency_port .btn_port_currency {
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .currency_port .btn_port_currency .img,
+  .currency_port .btn_port_currency .info {
+    width: 100%;
+  }
+
+  img.notfound_img {
+    width: 100%;
+  }
+
+  .box_rewards {
+    height: auto !important;
+  }
+
+  .box_rewards img {
+    margin: 0 !important;
+  }
+
+  .profile_topbar {
+    right: 30px;
+    top: 60px;
+    text-align: right;
+    width: 50%;
+  }
+
+  .profile_topbar p.name_panel {
+    color: #111;
+  }
+
+  .calc_panel {
+    height: auto;
+    overflow-y: unset;
+  }
+
+  .currency-wallet .body .item-currency-wallet {
+    min-height: auto;
+  }
+
+  .show-document .item.not_document_img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .menu-fixed .logo {
+    justify-content: space-between;
+  }
+
+  .menu-fixed .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn_wallet_transaction {
+    font-size: 0.75em;
+  }
+
+  .box-info p span {
+    font-size: 13px;
+  }
+
+  .info-calc-home p {
+    font-size: 0.75em;
+  }
+
+  .info-calc-home .show-price h6 {
+    font-size: 0.8em;
+  }
+
+  .info_wallet_toman {
+    display: none;
+  }
+
+  .title_bill {
+    margin-top: 30px;
+  }
+
+  #btn_new_ticket {
+    font-size: 0.75em;
+  }
+
+  .survey_list .btn {
+    font-size: 0.7em;
+  }
+
+  .user-status img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bt_wallet_ir {
+    width: 40% !important;
+    height: auto !important;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+
+  .col_search_voucher label {
+    font-size: 0.7em;
+  }
+
+  .list_currency_page_buySell {
+    height: 400px !important;
+  }
+
+  .list_currency_page_buySell form {
+    height: 10%;
+  }
+
+  .table_list_currency {
+    height: 90%;
+  }
+
+  .currency_buy,
+  .currency_sell,
+  .currency_buy .form_currency_buy form,
+  .currency_sell .form_currency_sell form,
+  .form_currency_sell>.row,
+  .form_currency_buy>.row,
+  .form_currency_sell,
+  .form_currency_buy,
+  .currency_buy .title,
+  .currency_sell .title {
+    height: auto;
+  }
+
+  #withdrawform #withdrawinput::placeholder {
+    font-size: .7em;
+  }
+
+  .all_balance_harvest {
+    padding: 5px !important;
+    font-size: .7em !important;
+  }
+
+  .transaction_Wallet {
+    height: auto;
+  }
+
+  .transaction_Wallet .top .item_1 {
+    height: auto;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+
+  .transaction_Wallet .top .wallet_name {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .transaction_Wallet .top .wallet_name h6 {
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .item_1 .img_curency {
+    width: 25px;
+    height: 25px;
+  }
+
+  .create_wallet_walletDirect {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .transaction_Wallet .top .balance {
+    width: 100%;
+  }
+
+  .transaction_Wallet .top .item_1 .balance h5 input {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .navTabWalletDirect li a {
+    font-size: 0.85em;
+  }
+
+  .deposit .network input {
+    border: 1px solid #ced4da;
+  }
+
+  .withdraw_wallet_btn_Max {
+    left: 0% !important;
+  }
+}

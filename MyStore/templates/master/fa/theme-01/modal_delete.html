@@ -1,0 +1,26 @@
+
+<div class="modal-box">
+    <div class="modal fade" 
+    id="{{modal_id}}Modal" 
+    tabindex="-1" 
+    role="dialog" 
+    aria-labelledby="{{modal_id}}ModalLabel" >
+      <div class="modal-dialog modal-dialog-delete" role="document">
+        <div class="modal-content clearfix ">  
+          <div class="modal-body">
+            <div class="modal-icon"> <i class="fas fa-trash"></i> </div>
+            <h3 class="title">{{title}}</h3>
+            <p class="description" >{{description}}</p>
+            <div class="btn_modal"> 
+            <button 
+            type="button" 
+            class="btn remove btn-delete-modal" 
+            onclick="FormAjaxModalDelete(event, '{{modal_id}}Modal' , '{{url}}', '{{object.pk}}' )" 
+            >حذف</button>
+            <button class="btn cancel" data-dismiss="modal" >انصراف</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>   

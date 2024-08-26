@@ -1,0 +1,226 @@
+{% extends 'master/fa/theme-01/base.html' %}
+{% load static %} 
+{% block headblock %} 
+
+{{form.media.css }} 
+
+{% endblock %} 
+{% block mainblock %}
+
+<div class="card">
+  <div style="height: 7vh; border-radius: 5px 5px 0px 0px; min-height: 50px; justify-content: space-between;" class="d-flex align-items-center align-content-center bg-green-gradient title-bg-pages">
+    <h4 class="mb-0 mx-4">« دسته بندی مجله های سایت »</h4>
+    <a class="btn btn-outline-light mb-0 mx-4" style="color: #ccc" data-toggle="modal" data-target="#MasterAddMagazineCategoriesModal" id="btn_add_magazine_category">
+      <i class="fas fa-plus"></i>
+    </a>
+  </div>
+  <div class="card-body">
+    <hr class="" />
+    <table id="magazine_category_table" class="table table-striped table-bordered" width="100%" style="text-align: center">
+      <thead>
+        <tr>
+          <th>کد</th>
+          <th>آیکن</th>
+          <th>عنوان</th>
+          <th>تاریخ | ساعت ایجاد</th>
+          <th>تاریخ | ساعت بروزرسانی</th>
+          <th>وضعیت</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+<!-- Start edit Magazine Categoriess Modal -->
+
+<div id="modal_add_magazine_category"></div>
+<div id="modal_edit_magazine_category"></div>
+<div id="modal_delete_magazine_category"></div>
+<div id="modal_inactive_journal_category"></div>
+<div id="modal_active_journal_category"></div> 
+
+<!-- End edit Magazine Categoriess Modal -->
+{% csrf_token %} 
+{% endblock %} 
+{% block footerblock %} 
+{{form.media.js}}
+
+<script>
+
+  toastr.options = {
+    timeOut: 3000,
+    progressBar: true,
+    showMethod: "slideDown",
+    hideMethod: "slideUp",
+    positionClass: "toast-bottom-right",
+    showDuration: 200,
+    hideDuration: 200,
+  };
+
+  const csrftoken = document.querySelector("[name=csrfmiddlewaretoken]").value;
+  let dt = [];
+  let editor;
+  let edit_magazine_category, delete_magazine_category, add_magazine_category, active_journal_category, inactive_journal_category;
+  $(document).ready(function () {
+    dt[0] = $("#magazine_category_table").DataTable({
+      dom: '<"row"<"col-md-6"l><"col-md-6"Bf>><rt><Bp>', 
+      "lengthMenu": [[25, 50, 100], [25, 50, 100]],
+      processing: true,
+      serverSide: true,
+      ajax: {
+        url: "{% url 'master_magazine_categories' %}",
+        type: "POST",
+        headers: { "X-CSRFToken": csrftoken },
+      },
+      responsive: true,
+      columns: [
+        { data: "pk" },
+        {
+          data: null,
+          render: function (data, type, row) {
+            return `
+            <figure class="avatar avatar-md">
+              <a href="${data.icon}" target="_blank">
+                <img src="${data.icon}"></img>
+              </a>
+            </figure>`;
+          },
+        },
+        { data: "title" },
+        { data: "created_at" },
+        { data: "updated_at" },
+        {
+          data: null,
+          render: function (data, type, row) {
+              return `<span class="" style="font-size:13px; font-weight:bold;">${data.status}</span>`;
+          },
+        },
+        {
+          data: null,
+          render: function (data, type, row) {
+            if(data.rowclass == 'danger'){
+              statusbtn = ` 
+                <a class="btn p-0" onclick="active_journal_category(${data.pk})" id="btn_active_journal_category_(${data.pk})" data-toggle="modal" title="حذف" data-target="#MasteractiveJournalCategoriesModal" style="border:none; color:#3da13c;">
+                  <i class="fa-regular fa-eye"></i>
+                </a> &nbsp 
+              `
+            }else if(data.rowclass == 'success'){
+              statusbtn = ` 
+                <a class="btn p-0" onclick="inactive_journal_category(${data.pk})" id="btn_inactive_journal_category_(${data.pk})" data-toggle="modal" title="حذف" data-target="#MasterInactiveJournalCategoriesModal" style="border:none; color:#d54646;">
+                  <i class="fa-regular fa-eye-slash"></i>
+                </a> &nbsp 
+              `
+            }
+            return `
+            ${statusbtn}
+                <a class="btn p-0" onclick="edit_magazine_category(${data.pk})" id="btn_edit_magazine_category_(${data.pk})"  data-toggle="modal" title="ویرایش" data-target="#MasterEditMagazineCategoriesModal" style="border:none; color:#3f5ac1;">
+                  <i class="fa fa-edit"></i>
+                </a> &nbsp
+                <a class="btn p-0" onclick="delete_magazine_category(${data.pk})" id="btn_delete_magazine_category_(${data.pk})" data-toggle="modal" title="حذف" data-target="#MasterDeleteMagazinesCategoriesModal" style="border:none; color:#b50707;">
+                  <i class="fa fa-trash" aria-hidden="true"></i>
+                </a> &nbsp  `;
+          },
+        },
+      ],
+      createdRow: function (row, data, dataIndex) {
+        $(row).find('td:eq(5)').addClass(data['rowclass']+'_status_field_table');
+      },
+      responsive: true,
+      language: {
+        url: "{% static 'master/' %}assets/js/fa.json",
+      },
+    });
+
+    edit_magazine_category = function (pk) {
+      $("#modal_edit_magazine_category").empty();
+
+      $.ajax({
+        url: "/master/magazine/category/edit/" + pk + "/",
+        data: {},
+        success: function (data) {
+          // console.log(data)
+          if(data.type == 'danger'){  
+              toastr.error(data.msg);
+          }else{
+            $(document).ready(function () {  
+                $("#modal_edit_magazine_category").append(data);
+                $("#MasterEditMagazineCategoriesModal").modal("show"); 
+            })
+          }
+        },
+      });
+    };
+    delete_magazine_category = function (pk) {
+      $("#modal_delete_magazine_category").empty();
+      $.ajax({
+        url: "/master/magazine/category/delete/" + pk + "/0/",
+        data: {},
+        success: function (data) {
+          if(data.type == 'danger'){
+              toastr.error(data.msg);
+          }else{
+            $(document).ready(function () { 
+                $("#modal_delete_magazine_category").append(data);
+                $("#MasterDeleteMagazinesCategoriesModal").modal("show"); 
+            })
+          }
+        },
+      });
+    };
+    inactive_journal_category = function (pk){
+        $("#modal_inactive_journal_category").empty(); 
+        $.ajax({
+          url: "/master/journal/category/status/" + pk + "/inactive/0/",
+          data: {},
+          success: function (data) {  
+            if(data.type == 'danger'){  
+                toastr.error(data.msg);
+            }else{
+              $(document).ready(function () { 
+                  $("#modal_inactive_journal_category").append(data);
+                  $("#MasterInactiveJournalCategoriesModal").modal("show"); 
+              })
+            }
+          },
+        });
+    }
+    active_journal_category = function (pk){
+      $("#modal_active_journal_category").empty(); 
+      $.ajax({
+        url: "/master/journal/category/status/" + pk + "/active/0/",
+        data: {},
+        success: function (data) { 
+          if(data.type == 'danger'){  
+              toastr.error(data.msg);
+          }else{
+            $(document).ready(function () {
+                $("#modal_active_journal_category").append(data);
+                $("#MasterActiveJournalCategoriesModal").modal("show");  
+            })
+          } 
+        },
+      });
+    } 
+  });
+  $(`#btn_add_magazine_category`).click(function () {
+    $("#modal_add_magazine_category").empty();
+    $.ajax({
+      url: "/master/magazine/category/add/",
+      data: {},
+      success: function (data) { 
+        if(data.type == 'danger'){  
+            toastr.error(data.msg);
+        }else{
+          $(document).ready(function () {   
+              
+              $("#modal_add_magazine_category").append(data);
+              $("#MasterAddMagazineCategoriesModal").modal("show"); 
+          })
+        }
+      },
+    });
+  });
+</script>
+
+{% endblock %}
