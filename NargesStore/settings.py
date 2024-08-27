@@ -142,7 +142,7 @@ USE_TZ = True
 
 LOCALE_PATHS = (BASE_DIR / "locale", )
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [BASE_DIR / "assets",]
+# STATICFILES_DIRS = [BASE_DIR / "assets",]
 STATIC_ROOT = BASE_DIR / "static"
 
 MEDIA_URL = '/media/'

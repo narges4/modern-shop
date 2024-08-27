@@ -1,4 +1,4 @@
-const csrftoken_ = document.querySelector("[name=csrfmiddlewaretoken]").value;
+// const csrftoken_ = document.querySelector("[name=csrfmiddlewaretoken]").value;
 
 toastr.options = {
     timeOut: 3000,

@@ -203,7 +203,7 @@
       });
     } 
   });
-  $(`#btn_add_magazine_category`).click(function () {
+  $(`#btn_add_magazine_category`).click(function (e) {
     $("#modal_add_magazine_category").empty();
     $.ajax({
       url: "/master/magazine/category/add/",
@@ -220,6 +220,7 @@
         }
       },
     });
+    e.preventDefault()
   });
 </script>
 
